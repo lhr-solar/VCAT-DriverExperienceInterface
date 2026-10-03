@@ -429,13 +429,37 @@
         "uuid": "1469f349-54e5-4a37-953e-ac48c70e29b2"
       }
     ],
-    "used_designators": "C33-41,IC2-4",
+    "used_designators": "C19-41,IC1-4,J4-5,D9-11,#PWR7-11,TP_3.3V1,U3-4,Q1-3,#FLG1-4,R17-24,F1-3,L1,TP1-4",
     "variants": []
   },
   "sheets": [
     [
       "1469f349-54e5-4a37-953e-ac48c70e29b2",
       "DEI"
+    ],
+    [
+      "e9eb73e6-82d8-4999-a196-90e4b1a7e3df",
+      "100PinMCU"
+    ],
+    [
+      "4ea6b256-b3c8-4b85-a1fb-bb78fadc598d",
+      "ESP32"
+    ],
+    [
+      "98e61f8a-cf85-4089-839d-b4a4b7821e93",
+      "12VBuck"
+    ],
+    [
+      "c6ff3be0-807b-42f2-8c13-9704b064ffc2",
+      "LDO"
+    ],
+    [
+      "d664d133-5974-455c-8253-3f46a5d5fac0",
+      "PowerProtection"
+    ],
+    [
+      "d41a835d-0002-40e6-b2c5-562251bf7d32",
+      "Power"
     ]
   ],
   "text_variables": {},
