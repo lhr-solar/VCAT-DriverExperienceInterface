@@ -3791,6 +3791,52 @@
 		)
 	)
 	(sheet
+		(at 36.83 154.94)
+		(size 30.48 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "54423642-8030-4532-b8ee-1f40cf2310d0")
+		(property "Sheetname" "CANS"
+			(at 36.83 154.2284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CANS.kicad_sch"
+			(at 36.83 179.6546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "DEI"
+				(path "/1469f349-54e5-4a37-953e-ac48c70e29b2/2751c2d7-629c-4bb6-8dd2-1a829c053e6c"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 166.37 27.94)
 		(size 12.7 7.62)
 		(exclude_from_sim no)
