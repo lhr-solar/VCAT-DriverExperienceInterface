@@ -279,6 +279,12 @@
 		(color 0 0 0 0)
 		(uuid "635fe4dd-ccaa-42a7-861e-e1bdc0c345fb")
 	)
+	(junction
+		(at 100.33 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d801dfbb-78ae-47fd-abf4-e9429c3e003a")
+	)
 	(wire
 		(pts
 			(xy 143.51 33.02) (xy 156.21 33.02)
@@ -391,6 +397,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 46.99) (xy 77.47 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99844323-4173-40e1-a0d3-7c72a3d884a0")
+	)
+	(wire
+		(pts
 			(xy 107.95 29.21) (xy 116.84 29.21)
 		)
 		(stroke
@@ -411,6 +427,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 52.07) (xy 100.33 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c30bc3eb-7fa1-4279-b0a5-08c4b9e4aa70")
+	)
+	(wire
+		(pts
 			(xy 100.33 48.26) (xy 101.6 48.26)
 		)
 		(stroke
@@ -418,6 +444,26 @@
 			(type default)
 		)
 		(uuid "c7e90b6f-8111-4b0a-968d-5f9db7ae95d8")
+	)
+	(wire
+		(pts
+			(xy 114.3 58.42) (xy 116.84 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8bfe794-05a5-46d8-855e-719961a365ac")
+	)
+	(wire
+		(pts
+			(xy 100.33 58.42) (xy 106.68 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0de3f98-d252-4d6d-a673-74de89d95cbf")
 	)
 	(label "Horn Out"
 		(at 115.57 52.07 0)
@@ -428,6 +474,61 @@
 			(justify left bottom)
 		)
 		(uuid "ce48a9cf-66ac-4600-809e-3ff2fdd0aea7")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 99.06 43.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "236c1314-74c3-43d9-b7ba-0a26c62f5e57")
+	)
+	(hierarchical_label "12V_Lights"
+		(shape output)
+		(at 116.84 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "34101d4e-2423-4fc1-93ec-23db4a102a8a")
+	)
+	(hierarchical_label "VIN"
+		(shape input)
+		(at 77.47 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8067fbd9-70fd-4281-a9dc-5547d6f1f4c0")
+	)
+	(hierarchical_label "VOUT"
+		(shape output)
+		(at 176.53 29.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ab230f85-9c44-4da3-8c42-8b019a80da91")
+	)
+	(hierarchical_label "HORN_OUT"
+		(shape output)
+		(at 115.57 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b49a8064-189a-4684-833a-843599d625c9")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -663,6 +764,86 @@
 			(project "DEI"
 				(path "/1469f349-54e5-4a37-953e-ac48c70e29b2/d41a835d-0002-40e6-b2c5-562251bf7d32"
 					(reference "F2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse")
+		(at 110.49 58.42 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "79dca522-8a76-4ab0-a27d-fddad1759640")
+		(property "Reference" "F3"
+			(at 110.49 52.07 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Fuse"
+			(at 110.49 54.61 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 60.198 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 110.49 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e8b72275-66ab-45ca-9412-f59aabcdd756")
+		)
+		(pin "1"
+			(uuid "6e9d394d-55b8-43cb-b262-2a6f2966f4e1")
+		)
+		(instances
+			(project "DEI"
+				(path "/1469f349-54e5-4a37-953e-ac48c70e29b2/d41a835d-0002-40e6-b2c5-562251bf7d32"
+					(reference "F3")
 					(unit 1)
 				)
 			)
@@ -948,7 +1129,7 @@
 				(justify left top)
 			)
 		)
-		(pin "GND" input
+		(pin "GND" passive
 			(at 77.47 44.45 180)
 			(uuid "aaf2e43f-1544-4d5e-b072-ab7ccccab780")
 			(effects
@@ -958,7 +1139,7 @@
 				(justify left)
 			)
 		)
-		(pin "GND" input
+		(pin "GND" passive
 			(at 99.06 43.18 0)
 			(uuid "87033abf-9edc-432f-8e8f-be8650c6cc6b")
 			(effects

@@ -5126,7 +5126,7 @@
 		(uuid "7d25a8b7-ef74-4c9e-9f8f-32b3f27d3cc3")
 	)
 	(hierarchical_label "GND"
-		(shape input)
+		(shape passive)
 		(at 60.96 68.58 270)
 		(effects
 			(font
@@ -5148,7 +5148,7 @@
 		(uuid "1df926d3-e014-409c-a713-f3cb5e429ba0")
 	)
 	(hierarchical_label "GND"
-		(shape input)
+		(shape passive)
 		(at 109.22 55.88 270)
 		(effects
 			(font
@@ -5159,7 +5159,7 @@
 		(uuid "27bb416f-21f7-4e22-bc56-e869d50905e8")
 	)
 	(hierarchical_label "GND"
-		(shape input)
+		(shape passive)
 		(at 139.7 95.25 270)
 		(effects
 			(font
@@ -5181,7 +5181,7 @@
 		(uuid "51544d6f-e376-4a23-9c06-49f513e0d5c3")
 	)
 	(hierarchical_label "GND"
-		(shape input)
+		(shape passive)
 		(at 25.4 57.15 270)
 		(effects
 			(font
@@ -5192,7 +5192,7 @@
 		(uuid "5c984d6a-b70e-4989-a490-4d2b48765eda")
 	)
 	(hierarchical_label "GND"
-		(shape input)
+		(shape passive)
 		(at 74.93 99.06 270)
 		(effects
 			(font
@@ -5203,7 +5203,7 @@
 		(uuid "5cab5f5b-0835-4fce-b37f-add97d1d6188")
 	)
 	(hierarchical_label "GND"
-		(shape input)
+		(shape passive)
 		(at 129.54 95.25 270)
 		(effects
 			(font
@@ -5214,7 +5214,7 @@
 		(uuid "65f4a0d1-5d21-4425-a99d-6227947d25b9")
 	)
 	(hierarchical_label "GND"
-		(shape input)
+		(shape passive)
 		(at 120.65 95.25 270)
 		(effects
 			(font
@@ -5225,7 +5225,7 @@
 		(uuid "6a2ff7b5-2f3a-4ada-af27-acf146ad2ad8")
 	)
 	(hierarchical_label "GND"
-		(shape input)
+		(shape passive)
 		(at 34.29 57.15 270)
 		(effects
 			(font
@@ -5247,7 +5247,7 @@
 		(uuid "91a7aaf4-8965-47be-900f-cb00d29ddd84")
 	)
 	(hierarchical_label "GND"
-		(shape input)
+		(shape passive)
 		(at 110.49 95.25 270)
 		(effects
 			(font
@@ -5258,7 +5258,7 @@
 		(uuid "bb691a7d-ab90-4d7c-8a58-08500182539f")
 	)
 	(hierarchical_label "GND"
-		(shape input)
+		(shape passive)
 		(at 35.56 88.9 270)
 		(effects
 			(font
@@ -5280,7 +5280,7 @@
 		(uuid "d3dbe8c4-0167-43f1-91ab-5e760928b53f")
 	)
 	(hierarchical_label "GND"
-		(shape input)
+		(shape passive)
 		(at 43.18 88.9 270)
 		(effects
 			(font

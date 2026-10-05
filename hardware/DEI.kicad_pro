@@ -429,17 +429,13 @@
         "uuid": "1469f349-54e5-4a37-953e-ac48c70e29b2"
       }
     ],
-    "used_designators": "C19-41,IC1-4,J4-5,D9-11,#PWR7-11,TP_3.3V1,U3-4,Q1-3,#FLG1-4,R17-24,F1-3,L1,TP1-4",
+    "used_designators": "C19-60,IC1-4,J1,J4-9,D9-14,#PWR7-75,TP_3.3V1,U3-5,Q1-15,#FLG1-4,R17-71,F1-3,L1,TP1-4,FB3-4,Reset2,SW4,Y2",
     "variants": []
   },
   "sheets": [
     [
       "1469f349-54e5-4a37-953e-ac48c70e29b2",
       "DEI"
-    ],
-    [
-      "e9eb73e6-82d8-4999-a196-90e4b1a7e3df",
-      "100PinMCU"
     ],
     [
       "4ea6b256-b3c8-4b85-a1fb-bb78fadc598d",
@@ -460,6 +456,62 @@
     [
       "d41a835d-0002-40e6-b2c5-562251bf7d32",
       "Power"
+    ],
+    [
+      "2751c2d7-629c-4bb6-8dd2-1a829c053e6c",
+      "MCU"
+    ],
+    [
+      "9ea02ee7-dd18-4f3f-a820-72bf7d12ad7e",
+      "100PinMCU"
+    ],
+    [
+      "80e0ce96-c72a-437f-9f1a-24ade86bb32b",
+      "NMOS"
+    ],
+    [
+      "13a0f7f7-8bab-40a0-b17e-5f7caba758b4",
+      "NMOS1"
+    ],
+    [
+      "a3734377-21d2-4bfe-ba0f-545a48d42db5",
+      "NMOS2"
+    ],
+    [
+      "9e69b250-54ae-4160-ad7a-79758089623e",
+      "NMOS3"
+    ],
+    [
+      "b7ac561b-2ba1-4cdf-9509-2d2feeeba778",
+      "NMOS4"
+    ],
+    [
+      "d3b2881e-e026-460b-b8e3-6473f820ed1b",
+      "NMOS5"
+    ],
+    [
+      "45570e4c-379f-4a94-bf7b-4e6e661a26d7",
+      "NMOS6"
+    ],
+    [
+      "75f5da1c-00c8-446b-8fb1-52f678584a36",
+      "NMOS7"
+    ],
+    [
+      "1052dbcd-ea1d-4c47-90b9-da589e115318",
+      "NMOS8"
+    ],
+    [
+      "1a7db479-e739-453a-8d5e-08bdcac73e65",
+      "NMOS9"
+    ],
+    [
+      "8aa22198-d0e5-42a7-9227-03e81c0b7aba",
+      "NMOS10"
+    ],
+    [
+      "8e9fd3b0-a079-439d-b991-b5f36c876be8",
+      "NMOS11"
     ]
   ],
   "text_variables": {},
