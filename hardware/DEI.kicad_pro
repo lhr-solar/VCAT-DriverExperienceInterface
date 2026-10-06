@@ -429,7 +429,7 @@
         "uuid": "1469f349-54e5-4a37-953e-ac48c70e29b2"
       }
     ],
-    "used_designators": "C1-4,C19-60,IC1-4,J1-2,J4-9,D1,D9-14,#PWR7-75,TP_3.3V1,U3-5,Q1-15,#FLG1-4,R1-2,R17-71,F1-3,L1,TP1-4,FB3-4,Reset2,SW4,Y2,JP1",
+    "used_designators": "C1-12,C19-60,IC1-4,J1-2,J4-14,D1-3,D9-14,#PWR7-88,TP_3.3V1,U3-5,Q1-15,#FLG1-4,R1-6,R17-71,F1-4,L1,TP1-4,FB3-4,Reset2,SW4,Y2,JP1-3",
     "variants": []
   },
   "sheets": [
@@ -438,8 +438,8 @@
       "DEI"
     ],
     [
-      "54423642-8030-4532-b8ee-1f40cf2310d0",
-      "CANS"
+      "d03d3721-0702-45fb-911c-2724f7c53e08",
+      "Steering_Can"
     ],
     [
       "4ea6b256-b3c8-4b85-a1fb-bb78fadc598d",
@@ -518,8 +518,28 @@
       "NMOS11"
     ],
     [
-      "d8d7a0c0-8713-4978-a76b-e48e01502763",
+      "d1620ec0-c7a0-415c-9346-0ade93235db4",
       "CAN_Transceiver"
+    ],
+    [
+      "f748fd4f-e9bc-4d7c-a9ce-c6fb73d1dc4b",
+      "Lighting_Can"
+    ],
+    [
+      "d1620ec0-c7a0-415c-9346-0ade93235db4",
+      "CAN_Transceiver"
+    ],
+    [
+      "f1d5af68-4437-457a-a634-51bda989f26e",
+      "Car_Can"
+    ],
+    [
+      "d1620ec0-c7a0-415c-9346-0ade93235db4",
+      "CAN_Transceiver"
+    ],
+    [
+      "5ddfe301-c767-4cfd-837e-dad0b41ce450",
+      "Lights"
     ]
   ],
   "text_variables": {},
