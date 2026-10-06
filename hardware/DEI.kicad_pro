@@ -429,7 +429,7 @@
         "uuid": "1469f349-54e5-4a37-953e-ac48c70e29b2"
       }
     ],
-    "used_designators": "C1-12,C19-60,IC1-4,J1-2,J4-15,D1-3,D9-14,#PWR7-88,TP_3.3V1,U3-5,Q1-15,#FLG1-4,R1-6,R17-71,F1-4,L1,TP1-4,FB3-4,Reset2,SW4,Y2,JP1-3",
+    "used_designators": "C1-17,C19-60,J1-2,J4-16,IC1-4,#PWR1-93,D1-14,TP_3.3V1,U1,U3-5,Q1-15,R1-71,#FLG1-4,F1-4,L1,TP1-4,FB3-4,Reset2,SW1-2,SW4,Y2,JP1-3",
     "variants": []
   },
   "sheets": [
@@ -442,8 +442,8 @@
       "Steering_Can"
     ],
     [
-      "4ea6b256-b3c8-4b85-a1fb-bb78fadc598d",
-      "ESP32"
+      "64523ff7-94a6-4682-bbbd-5c1af043873e",
+      "ESP"
     ],
     [
       "98e61f8a-cf85-4089-839d-b4a4b7821e93",
@@ -540,6 +540,10 @@
     [
       "5ddfe301-c767-4cfd-837e-dad0b41ce450",
       "Lights"
+    ],
+    [
+      "5645337b-a28f-48eb-9146-da33040b8949",
+      "ESP32"
     ]
   ],
   "text_variables": {},
