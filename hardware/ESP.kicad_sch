@@ -261,9 +261,25 @@
 			(embedded_fonts no)
 		)
 	)
+	(no_connect
+		(at 114.3 78.74)
+		(uuid "585c369c-355a-47d2-a644-ecbca3e8757d")
+	)
+	(no_connect
+		(at 114.3 81.28)
+		(uuid "6f97bcac-707a-4938-8ae6-8b1be698a07d")
+	)
+	(no_connect
+		(at 144.78 77.47)
+		(uuid "7861a8b1-4e91-410c-901e-f60abf8cc86a")
+	)
+	(no_connect
+		(at 144.78 74.93)
+		(uuid "edbecd75-7ab8-4e32-b356-af42022f38f5")
+	)
 	(wire
 		(pts
-			(xy 207.01 88.9) (xy 214.63 88.9)
+			(xy 205.74 93.98) (xy 213.36 93.98)
 		)
 		(stroke
 			(width 0)
@@ -273,7 +289,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 86.36) (xy 214.63 86.36)
+			(xy 201.93 88.9) (xy 205.74 88.9)
 		)
 		(stroke
 			(width 0)
@@ -323,7 +339,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 83.82) (xy 214.63 83.82)
+			(xy 201.93 86.36) (xy 205.74 86.36)
 		)
 		(stroke
 			(width 0)
@@ -373,7 +389,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 88.9) (xy 199.39 88.9)
+			(xy 193.04 93.98) (xy 198.12 93.98)
 		)
 		(stroke
 			(width 0)
@@ -462,7 +478,7 @@
 		(uuid "68191f8f-244e-453c-bf31-a43f417a8cdf")
 	)
 	(label "ESP_RESET"
-		(at 194.31 88.9 180)
+		(at 193.04 93.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -482,12 +498,12 @@
 		(uuid "834fd18e-b69e-4fe9-9d9e-002e7028b180")
 	)
 	(label "ESP_GPIO1"
-		(at 210.82 83.82 0)
+		(at 201.93 86.36 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "83687c0b-dea6-4b7c-88c9-5733804177ba")
 	)
@@ -512,12 +528,12 @@
 		(uuid "cc10b819-0d64-4333-80c6-9b681434f2a7")
 	)
 	(label "ESP_GPIO2"
-		(at 210.82 86.36 0)
+		(at 201.93 88.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "f6720ae7-0221-4a93-9956-4495931deb9e")
 	)
@@ -534,7 +550,7 @@
 	)
 	(hierarchical_label "ESP_RESET"
 		(shape bidirectional)
-		(at 214.63 88.9 0)
+		(at 213.36 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -545,7 +561,7 @@
 	)
 	(hierarchical_label "ESP_GPIO1"
 		(shape bidirectional)
-		(at 214.63 83.82 0)
+		(at 205.74 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -567,7 +583,7 @@
 	)
 	(hierarchical_label "ESP_GPIO2"
 		(shape bidirectional)
-		(at 214.63 86.36 0)
+		(at 205.74 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -589,7 +605,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 203.2 88.9 90)
+		(at 201.93 93.98 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -599,7 +615,7 @@
 		(dnp no)
 		(uuid "163b4c99-2225-42af-8400-376accf04244")
 		(property "Reference" "R17"
-			(at 199.898 90.932 90)
+			(at 201.676 96.266 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -609,7 +625,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 203.962 90.932 90)
+			(at 202.438 94.234 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -619,7 +635,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 203.2 90.678 90)
+			(at 201.93 95.758 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -630,7 +646,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 203.2 88.9 0)
+			(at 201.93 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -641,7 +657,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 203.2 88.9 0)
+			(at 201.93 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -678,7 +694,7 @@
 		(dnp no)
 		(uuid "689c186d-6228-4845-94ce-f4914a96a5b0")
 		(property "Reference" "R16"
-			(at 199.898 83.312 90)
+			(at 203.2 83.312 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -688,7 +704,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 203.962 83.312 90)
+			(at 203.708 81.28 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -845,7 +861,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 202.438 73.66 90)
+			(at 202.946 78.74 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
