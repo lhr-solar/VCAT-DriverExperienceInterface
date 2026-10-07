@@ -1922,7 +1922,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b902b9ae-9987-4fab-978a-81cbd4e49f18")
 		(property "Reference" "R34"
 			(at 120.65 66.04 90)
@@ -1935,7 +1934,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 120.65 68.58 90)
+			(at 120.396 72.136 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
