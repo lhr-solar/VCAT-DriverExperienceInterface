@@ -708,7 +708,7 @@
 		(dnp no)
 		(uuid "79dca522-8a76-4ab0-a27d-fddad1759640")
 		(property "Reference" "F3"
-			(at 110.49 24.13 90)
+			(at 107.95 21.844 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -785,10 +785,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a7b24c92-c18d-4716-abec-625baef02dcb")
 		(property "Reference" "F1"
-			(at 105.41 36.83 90)
+			(at 105.664 38.354 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -798,7 +797,7 @@
 			)
 		)
 		(property "Value" "Fuse"
-			(at 105.41 39.37 90)
+			(at 105.664 40.894 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -877,7 +876,7 @@
 			)
 		)
 		(property "Value" "Fuse"
-			(at 110.49 30.48 90)
+			(at 110.744 33.274 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
