@@ -429,13 +429,17 @@
         "uuid": "1469f349-54e5-4a37-953e-ac48c70e29b2"
       }
     ],
-    "used_designators": "C1-70,IC1-7,J1-23,D1-20,#PWR1-110,TP_3.3V1,U1,U3-5,Q1-15,#FLG1-4,R1-75,F1-4,L1,TP1-4,FB3-4,Reset2,SW1-2,SW4,Y2,JP1-6",
+    "used_designators": "C1-74,J1-23,IC1-7,#PWR1-110,#PWR114-115,D1-34,TP_3.3V1,U1-5,Q1-16,R1-82,#FLG1-5,F1-4,L1,TP1-4,FB1-4,Reset2,SW1-5,Y1-2,JP1-6",
     "variants": []
   },
   "sheets": [
     [
       "1469f349-54e5-4a37-953e-ac48c70e29b2",
       "DEI"
+    ],
+    [
+      "77f3772f-6477-4f1c-8032-6d7da4ec4c6d",
+      "48PinMCU"
     ],
     [
       "64523ff7-94a6-4682-bbbd-5c1af043873e",
@@ -462,8 +466,8 @@
       "MCU"
     ],
     [
-      "9ea02ee7-dd18-4f3f-a820-72bf7d12ad7e",
-      "100PinMCU"
+      "e77eef02-5116-473a-bb3c-4b352f4422fc",
+      "USB-C_Connector"
     ],
     [
       "80e0ce96-c72a-437f-9f1a-24ade86bb32b",
@@ -512,6 +516,10 @@
     [
       "8e9fd3b0-a079-439d-b991-b5f36c876be8",
       "NMOS11"
+    ],
+    [
+      "7b8754e3-7888-44e1-99a1-5ee65bae4b91",
+      "Power_Mux"
     ],
     [
       "5ddfe301-c767-4cfd-837e-dad0b41ce450",
