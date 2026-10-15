@@ -1,0 +1,268 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "a83e9915-42a3-484e-a3f3-dc17d3e10f8c")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 64.77 54.61) (xy 71.12 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0499550f-aef2-4764-8ba4-cfa54b138704")
+	)
+	(wire
+		(pts
+			(xy 87.63 52.07) (xy 104.14 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ea1b5f7-aa0f-4afb-a752-0ca208d79ccd")
+	)
+	(wire
+		(pts
+			(xy 64.77 52.07) (xy 71.12 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c8c7159-4fd9-4dee-93cb-4d9d9c9b8bfb")
+	)
+	(wire
+		(pts
+			(xy 64.77 59.69) (xy 71.12 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b532913-813f-444d-b3ba-242306dcb558")
+	)
+	(wire
+		(pts
+			(xy 87.63 54.61) (xy 104.14 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d4d6828-27cd-4916-a7d1-512f7aa81351")
+	)
+	(wire
+		(pts
+			(xy 64.77 57.15) (xy 71.12 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a20359bf-173a-4b2c-896f-53e21cb7ba80")
+	)
+	(hierarchical_label "CAN_TX"
+		(shape output)
+		(at 64.77 57.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1693630e-4b1b-426e-a770-c02de98e6bd5")
+	)
+	(hierarchical_label "CAN_L"
+		(shape output)
+		(at 104.14 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3c0045c9-17bd-4cba-902b-0ed12e21c0d8")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 64.77 59.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9ebd12a7-0451-4795-830f-4580b6db640b")
+	)
+	(hierarchical_label "3.3"
+		(shape input)
+		(at 64.77 52.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c0f4c378-aa09-4fe8-8405-af6e73d070bd")
+	)
+	(hierarchical_label "CAN_RX"
+		(shape output)
+		(at 64.77 54.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c6766761-4df6-49dc-ba9b-f439be12cdc2")
+	)
+	(hierarchical_label "CAN_H"
+		(shape output)
+		(at 104.14 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d6b42a6e-a65f-45ea-a53b-a6eccab8e1f6")
+	)
+	(sheet
+		(at 71.12 49.53)
+		(size 16.51 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "d1620ec0-c7a0-415c-9346-0ade93235db4")
+		(property "Sheetname" "CAN_Transceiver"
+			(at 71.12 48.8184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CAN_Transceiver.kicad_sch"
+			(at 71.12 61.5446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Date Modified" "05/12/2026"
+			(at 3.81 3.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Author" "Karthik Kurapati"
+			(at 3.81 3.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3.3v" input
+			(at 71.12 52.07 180)
+			(uuid "614a3544-a01d-41af-a858-5f6cd3169b26")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CAN_H" bidirectional
+			(at 87.63 52.07 0)
+			(uuid "8bc3de5d-35d7-489f-9562-1a59e860f988")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAN_L" bidirectional
+			(at 87.63 54.61 0)
+			(uuid "187ec244-7592-4b42-8bd5-c731134972f9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAN_TX" input
+			(at 71.12 57.15 180)
+			(uuid "9ec6b59d-6ac6-49e4-8fe7-f23642bdb6df")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND" input
+			(at 71.12 59.69 180)
+			(uuid "ead54dfd-568e-42a2-86c3-bd9e1d4ae1e8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CAN_RX" output
+			(at 71.12 54.61 180)
+			(uuid "ef0e646d-ab14-48d7-a205-5a7698654a00")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "DEI"
+				(path "/1469f349-54e5-4a37-953e-ac48c70e29b2/2751c2d7-629c-4bb6-8dd2-1a829c053e6c/d03d3721-0702-45fb-911c-2724f7c53e08"
+					(page "22")
+				)
+				(path "/1469f349-54e5-4a37-953e-ac48c70e29b2/2751c2d7-629c-4bb6-8dd2-1a829c053e6c/f748fd4f-e9bc-4d7c-a9ce-c6fb73d1dc4b"
+					(page "24")
+				)
+				(path "/1469f349-54e5-4a37-953e-ac48c70e29b2/2751c2d7-629c-4bb6-8dd2-1a829c053e6c/f1d5af68-4437-457a-a634-51bda989f26e"
+					(page "26")
+				)
+			)
+		)
+	)
+)
