@@ -1318,10 +1318,6 @@
 		)
 		(instances
 			(project "DEI"
-				(path "/1469f349-54e5-4a37-953e-ac48c70e29b2/2751c2d7-629c-4bb6-8dd2-1a829c053e6c/1052dbcd-ea1d-4c47-90b9-da589e115318"
-					(reference "C56")
-					(unit 1)
-				)
 				(path "/1469f349-54e5-4a37-953e-ac48c70e29b2/2751c2d7-629c-4bb6-8dd2-1a829c053e6c/13a0f7f7-8bab-40a0-b17e-5f7caba758b4"
 					(reference "C49")
 					(unit 1)
@@ -1441,10 +1437,6 @@
 		)
 		(instances
 			(project "DEI"
-				(path "/1469f349-54e5-4a37-953e-ac48c70e29b2/2751c2d7-629c-4bb6-8dd2-1a829c053e6c/1052dbcd-ea1d-4c47-90b9-da589e115318"
-					(reference "#PWR048")
-					(unit 1)
-				)
 				(path "/1469f349-54e5-4a37-953e-ac48c70e29b2/2751c2d7-629c-4bb6-8dd2-1a829c053e6c/13a0f7f7-8bab-40a0-b17e-5f7caba758b4"
 					(reference "#PWR020")
 					(unit 1)
@@ -1601,10 +1593,6 @@
 		)
 		(instances
 			(project "DEI"
-				(path "/1469f349-54e5-4a37-953e-ac48c70e29b2/2751c2d7-629c-4bb6-8dd2-1a829c053e6c/1052dbcd-ea1d-4c47-90b9-da589e115318"
-					(reference "Q11")
-					(unit 1)
-				)
 				(path "/1469f349-54e5-4a37-953e-ac48c70e29b2/2751c2d7-629c-4bb6-8dd2-1a829c053e6c/13a0f7f7-8bab-40a0-b17e-5f7caba758b4"
 					(reference "Q4")
 					(unit 1)
@@ -1723,10 +1711,6 @@
 		)
 		(instances
 			(project "DEI"
-				(path "/1469f349-54e5-4a37-953e-ac48c70e29b2/2751c2d7-629c-4bb6-8dd2-1a829c053e6c/1052dbcd-ea1d-4c47-90b9-da589e115318"
-					(reference "#PWR046")
-					(unit 1)
-				)
 				(path "/1469f349-54e5-4a37-953e-ac48c70e29b2/2751c2d7-629c-4bb6-8dd2-1a829c053e6c/13a0f7f7-8bab-40a0-b17e-5f7caba758b4"
 					(reference "#PWR018")
 					(unit 1)
@@ -1849,10 +1833,6 @@
 		)
 		(instances
 			(project "DEI"
-				(path "/1469f349-54e5-4a37-953e-ac48c70e29b2/2751c2d7-629c-4bb6-8dd2-1a829c053e6c/1052dbcd-ea1d-4c47-90b9-da589e115318"
-					(reference "R57")
-					(unit 1)
-				)
 				(path "/1469f349-54e5-4a37-953e-ac48c70e29b2/2751c2d7-629c-4bb6-8dd2-1a829c053e6c/13a0f7f7-8bab-40a0-b17e-5f7caba758b4"
 					(reference "R36")
 					(unit 1)
@@ -1975,10 +1955,6 @@
 		)
 		(instances
 			(project "DEI"
-				(path "/1469f349-54e5-4a37-953e-ac48c70e29b2/2751c2d7-629c-4bb6-8dd2-1a829c053e6c/1052dbcd-ea1d-4c47-90b9-da589e115318"
-					(reference "R59")
-					(unit 1)
-				)
 				(path "/1469f349-54e5-4a37-953e-ac48c70e29b2/2751c2d7-629c-4bb6-8dd2-1a829c053e6c/13a0f7f7-8bab-40a0-b17e-5f7caba758b4"
 					(reference "R38")
 					(unit 1)
@@ -2110,10 +2086,6 @@
 		)
 		(instances
 			(project "DEI"
-				(path "/1469f349-54e5-4a37-953e-ac48c70e29b2/2751c2d7-629c-4bb6-8dd2-1a829c053e6c/1052dbcd-ea1d-4c47-90b9-da589e115318"
-					(reference "D27")
-					(unit 1)
-				)
 				(path "/1469f349-54e5-4a37-953e-ac48c70e29b2/2751c2d7-629c-4bb6-8dd2-1a829c053e6c/13a0f7f7-8bab-40a0-b17e-5f7caba758b4"
 					(reference "D15")
 					(unit 1)
@@ -2233,10 +2205,6 @@
 		)
 		(instances
 			(project "DEI"
-				(path "/1469f349-54e5-4a37-953e-ac48c70e29b2/2751c2d7-629c-4bb6-8dd2-1a829c053e6c/1052dbcd-ea1d-4c47-90b9-da589e115318"
-					(reference "#PWR049")
-					(unit 1)
-				)
 				(path "/1469f349-54e5-4a37-953e-ac48c70e29b2/2751c2d7-629c-4bb6-8dd2-1a829c053e6c/13a0f7f7-8bab-40a0-b17e-5f7caba758b4"
 					(reference "#PWR021")
 					(unit 1)
@@ -2356,10 +2324,6 @@
 		)
 		(instances
 			(project "DEI"
-				(path "/1469f349-54e5-4a37-953e-ac48c70e29b2/2751c2d7-629c-4bb6-8dd2-1a829c053e6c/1052dbcd-ea1d-4c47-90b9-da589e115318"
-					(reference "#PWR047")
-					(unit 1)
-				)
 				(path "/1469f349-54e5-4a37-953e-ac48c70e29b2/2751c2d7-629c-4bb6-8dd2-1a829c053e6c/13a0f7f7-8bab-40a0-b17e-5f7caba758b4"
 					(reference "#PWR019")
 					(unit 1)

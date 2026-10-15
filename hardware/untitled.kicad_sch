@@ -1066,6 +1066,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 30.48) (xy 106.68 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "602a26b2-92db-4552-827a-4b95343a2dea")
+	)
+	(wire
+		(pts
 			(xy 111.76 24.13) (xy 115.57 24.13)
 		)
 		(stroke
@@ -1303,16 +1313,6 @@
 			(type default)
 		)
 		(uuid "c8bfe794-05a5-46d8-855e-719961a365ac")
-	)
-	(wire
-		(pts
-			(xy 100.33 30.48) (xy 106.68 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d06d969b-5ae4-47be-b21e-92d30d18adb8")
 	)
 	(wire
 		(pts
@@ -2225,7 +2225,7 @@
 		(dnp no)
 		(uuid "6e933b1f-8b85-47a9-af87-5c835942e11f")
 		(property "Reference" "F2"
-			(at 107.95 15.24 90)
+			(at 107.696 22.352 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2234,8 +2234,8 @@
 				)
 			)
 		)
-		(property "Value" "Fuse"
-			(at 105.156 15.24 90)
+		(property "Value" ".5A"
+			(at 107.696 24.13 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2287,85 +2287,6 @@
 			(project "DEI"
 				(path "/1469f349-54e5-4a37-953e-ac48c70e29b2/d41a835d-0002-40e6-b2c5-562251bf7d32"
 					(reference "F2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Fuse")
-		(at 110.49 30.48 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "79dca522-8a76-4ab0-a27d-fddad1759640")
-		(property "Reference" "F3"
-			(at 107.95 21.844 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Fuse"
-			(at 107.442 24.13 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 110.49 32.258 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 110.49 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Fuse"
-			(at 110.49 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "e8b72275-66ab-45ca-9412-f59aabcdd756")
-		)
-		(pin "1"
-			(uuid "6e9d394d-55b8-43cb-b262-2a6f2966f4e1")
-		)
-		(instances
-			(project "DEI"
-				(path "/1469f349-54e5-4a37-953e-ac48c70e29b2/d41a835d-0002-40e6-b2c5-562251bf7d32"
-					(reference "F3")
 					(unit 1)
 				)
 			)
@@ -2858,7 +2779,7 @@
 		(dnp no)
 		(uuid "cc7897a6-c850-41d9-9b43-5c5e84d8ac57")
 		(property "Reference" "F4"
-			(at 110.49 29.21 90)
+			(at 110.236 37.084 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2867,13 +2788,14 @@
 				)
 			)
 		)
-		(property "Value" "Fuse"
-			(at 110.744 33.274 90)
+		(property "Value" "130mA"
+			(at 110.998 35.56 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.1588)
 				)
 			)
 		)
@@ -2920,6 +2842,88 @@
 			(project "DEI"
 				(path "/1469f349-54e5-4a37-953e-ac48c70e29b2/d41a835d-0002-40e6-b2c5-562251bf7d32"
 					(reference "F4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse")
+		(at 110.49 30.48 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d333ff87-7e05-482d-a226-af587563cb89")
+		(property "Reference" "F5"
+			(at 110.236 32.004 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TBD"
+			(at 110.49 30.734 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(italic yes)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 32.258 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 110.49 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4faebe06-86a8-4d93-8f7e-5251176c201b")
+		)
+		(pin "1"
+			(uuid "ea2e0d6f-e8f3-4a02-88f8-0ebf80e8925f")
+		)
+		(instances
+			(project "DEI"
+				(path "/1469f349-54e5-4a37-953e-ac48c70e29b2/d41a835d-0002-40e6-b2c5-562251bf7d32"
+					(reference "F5")
 					(unit 1)
 				)
 			)
