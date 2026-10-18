@@ -429,7 +429,7 @@
         "uuid": "1469f349-54e5-4a37-953e-ac48c70e29b2"
       }
     ],
-    "used_designators": "C1-74,J1-23,IC1-7,#PWR1-122,D1-34,TP_3.3V1,U1-5,Q1-16,R1-82,#FLG1-5,F1-5,L1,TP1-4,FB1-4,Reset2,SW1-10,Y1-2,JP1-6,H1-5",
+    "used_designators": "C1-74,IC1-7,J1-27,D1-34,D38-55,#PWR1-125,TP_3.3V1,U1-5,Q1-18,Q22-26,#FLG1-5,R1-82,R92-115,F1-5,L1,TP1-4,FB1-4,Reset2,SW1-10,Y1-2,JP1-6,H1-5",
     "variants": []
   },
   "sheets": [
@@ -438,20 +438,24 @@
       "DEI"
     ],
     [
-      "77f3772f-6477-4f1c-8032-6d7da4ec4c6d",
-      "48PinMCU"
+      "63920d64-0484-425f-8f64-1c9300ee1a5c",
+      "PowerProtection"
     ],
     [
-      "98e61f8a-cf85-4089-839d-b4a4b7821e93",
+      "807a1c53-864d-4860-97ef-43e72c60d831",
+      "USB-C_Connector"
+    ],
+    [
+      "8dd4a490-1c92-4af5-a50b-9e0ac26eceaa",
       "12VBuck"
     ],
     [
-      "c6ff3be0-807b-42f2-8c13-9704b064ffc2",
-      "LDO"
+      "b8ad50d8-c271-44ff-b140-dd0f61fc62a8",
+      "Power_Mux"
     ],
     [
-      "d664d133-5974-455c-8253-3f46a5d5fac0",
-      "PowerProtection"
+      "8ad94733-f2d7-4743-88e0-fbb56096b436",
+      "LDO"
     ],
     [
       "d41a835d-0002-40e6-b2c5-562251bf7d32",
@@ -462,20 +466,16 @@
       "MCU"
     ],
     [
-      "e77eef02-5116-473a-bb3c-4b352f4422fc",
-      "USB-C_Connector"
+      "935e98ec-1882-4bbf-ad41-215621ec306b",
+      "NMOS13"
     ],
     [
-      "80e0ce96-c72a-437f-9f1a-24ade86bb32b",
-      "NMOS"
+      "62c62208-3ad7-4747-b842-0db22efa2c00",
+      "Lights"
     ],
     [
-      "13a0f7f7-8bab-40a0-b17e-5f7caba758b4",
-      "NMOS1"
-    ],
-    [
-      "a3734377-21d2-4bfe-ba0f-545a48d42db5",
-      "NMOS2"
+      "e585931e-f339-4dd3-aa8e-68c9d2625651",
+      "NMOS17"
     ],
     [
       "9e69b250-54ae-4160-ad7a-79758089623e",
@@ -498,36 +498,60 @@
       "NMOS7"
     ],
     [
-      "1a7db479-e739-453a-8d5e-08bdcac73e65",
-      "NMOS9"
-    ],
-    [
-      "8aa22198-d0e5-42a7-9227-03e81c0b7aba",
-      "NMOS10"
+      "85d09cab-76cc-4aa3-a956-a5110b1aa284",
+      "NMOS12"
     ],
     [
       "8e9fd3b0-a079-439d-b991-b5f36c876be8",
       "NMOS11"
     ],
     [
-      "7b8754e3-7888-44e1-99a1-5ee65bae4b91",
-      "Power_Mux"
+      "e42383e9-4c7f-42bd-a919-09dbe00e4f7a",
+      "NMOS14"
     ],
     [
-      "5ddfe301-c767-4cfd-837e-dad0b41ce450",
-      "Lights"
-    ],
-    [
-      "9bcf7553-4852-400d-9459-3ab0a78c64aa",
+      "5beee3ad-dd7b-48cc-8ccf-0b36fcf9786a",
       "CAN_Transceiver"
     ],
     [
-      "3448956a-9324-425a-bfb3-14a6fc33a476",
+      "e26fdb1b-0065-4bb9-9c82-052d7a56471c",
+      "Llighting_trans"
+    ],
+    [
+      "04396aca-93e1-400a-bc7c-fde1e6cca844",
       "Car_Transceiver"
     ],
     [
-      "6418c5ab-d2ee-40ab-9408-7603a9157b17",
-      "Lighting_Transceiver"
+      "1a6bb0f0-6d8b-4c8e-90ac-57231a566115",
+      "NMOS15"
+    ],
+    [
+      "b37209a4-58c6-485e-9ae0-dfc559dfc74c",
+      "Fetting_Left"
+    ],
+    [
+      "7e1d9c05-2aba-4428-896d-ddcff27a9337",
+      "100PinMCU"
+    ],
+    [
+      "c5ef5451-f376-40f1-978e-9f58b1b49c9d",
+      "Fetting_Head"
+    ],
+    [
+      "d7551ab7-02b4-4db5-ad32-6a64598e5e63",
+      "Fetting_Right"
+    ],
+    [
+      "e35edf85-e0a5-4e13-889e-4896e51a98fa",
+      "NMOS16"
+    ],
+    [
+      "cf106fdb-a2af-4da2-bd07-613f07ab530d",
+      "NMOS18"
+    ],
+    [
+      "27da989f-2977-45b9-9088-f2fb06ae5d07",
+      "NMOS19"
     ]
   ],
   "text_variables": {},

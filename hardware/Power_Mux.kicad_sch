@@ -1795,7 +1795,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "01ead70c-0165-4879-828f-f34459038239")
-		(property "Reference" "C37"
+		(property "Reference" "C20"
 			(at 91.8972 57.2516 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1806,7 +1806,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "0.1u"
 			(at 91.8972 59.563 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1861,17 +1861,6 @@
 				)
 			)
 		)
-		(property "Mfg" "MLASH168SB7104KTNA01"
-			(at 88.9 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "cdea4d5c-14cc-422b-b60c-9f4ffab73794")
 		)
@@ -1880,12 +1869,12 @@
 		)
 		(instances
 			(project "DEI"
-				(path "/1469f349-54e5-4a37-953e-ac48c70e29b2/d41a835d-0002-40e6-b2c5-562251bf7d32/7b8754e3-7888-44e1-99a1-5ee65bae4b91"
-					(reference "C37")
+				(path "/1469f349-54e5-4a37-953e-ac48c70e29b2/d41a835d-0002-40e6-b2c5-562251bf7d32/b8ad50d8-c271-44ff-b140-dd0f61fc62a8"
+					(reference "C20")
 					(unit 1)
 				)
 			)
-			(project "power-mux-block"
+			(project "Power_Mux"
 				(path "/c8207045-8aef-4538-bcc4-1e380c549c2c"
 					(reference "C4")
 					(unit 1)
@@ -1904,7 +1893,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2b5b7fd6-b1a2-49bf-aab6-5b1c87c9f917")
-		(property "Reference" "R27"
+		(property "Reference" "R14"
 			(at 78.994 67.564 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1976,12 +1965,12 @@
 		)
 		(instances
 			(project "DEI"
-				(path "/1469f349-54e5-4a37-953e-ac48c70e29b2/d41a835d-0002-40e6-b2c5-562251bf7d32/7b8754e3-7888-44e1-99a1-5ee65bae4b91"
-					(reference "R27")
+				(path "/1469f349-54e5-4a37-953e-ac48c70e29b2/d41a835d-0002-40e6-b2c5-562251bf7d32/b8ad50d8-c271-44ff-b140-dd0f61fc62a8"
+					(reference "R14")
 					(unit 1)
 				)
 			)
-			(project "power-mux-block"
+			(project "Power_Mux"
 				(path "/c8207045-8aef-4538-bcc4-1e380c549c2c"
 					(reference "R1")
 					(unit 1)
@@ -2000,7 +1989,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "34e6f2ae-d271-4a6d-9148-a06a796ccc05")
-		(property "Reference" "C34"
+		(property "Reference" "C16"
 			(at 24.5872 44.5516 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2011,7 +2000,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "0.1u"
 			(at 24.5872 46.863 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2066,17 +2055,6 @@
 				)
 			)
 		)
-		(property "Mfg" "MLASH168SB7104KTNA01"
-			(at 21.59 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "15e06278-345c-4cda-89aa-1c631a524a93")
 		)
@@ -2085,12 +2063,12 @@
 		)
 		(instances
 			(project "DEI"
-				(path "/1469f349-54e5-4a37-953e-ac48c70e29b2/d41a835d-0002-40e6-b2c5-562251bf7d32/7b8754e3-7888-44e1-99a1-5ee65bae4b91"
-					(reference "C34")
+				(path "/1469f349-54e5-4a37-953e-ac48c70e29b2/d41a835d-0002-40e6-b2c5-562251bf7d32/b8ad50d8-c271-44ff-b140-dd0f61fc62a8"
+					(reference "C16")
 					(unit 1)
 				)
 			)
-			(project "power-mux-block"
+			(project "Power_Mux"
 				(path "/c8207045-8aef-4538-bcc4-1e380c549c2c"
 					(reference "C1")
 					(unit 1)
@@ -2110,7 +2088,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8edbd683-d226-4095-b4a7-38849f22f4d9")
-		(property "Reference" "U5"
+		(property "Reference" "U2"
 			(at 60.96 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2164,54 +2142,6 @@
 				)
 			)
 		)
-		(property "PARTREV" "A"
-			(at 60.96 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "STANDARD" "IPC-7351B"
-			(at 60.96 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "0.6mm"
-			(at 60.96 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MANUFACTURER" "Texas Instruments"
-			(at 60.96 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
 		(property "P/N" "TPS2117DRLR"
 			(at 60.96 49.53 0)
 			(show_name no)
@@ -2248,12 +2178,12 @@
 		)
 		(instances
 			(project "DEI"
-				(path "/1469f349-54e5-4a37-953e-ac48c70e29b2/d41a835d-0002-40e6-b2c5-562251bf7d32/7b8754e3-7888-44e1-99a1-5ee65bae4b91"
-					(reference "U5")
+				(path "/1469f349-54e5-4a37-953e-ac48c70e29b2/d41a835d-0002-40e6-b2c5-562251bf7d32/b8ad50d8-c271-44ff-b140-dd0f61fc62a8"
+					(reference "U2")
 					(unit 1)
 				)
 			)
-			(project ""
+			(project "Power_Mux"
 				(path "/c8207045-8aef-4538-bcc4-1e380c549c2c"
 					(reference "U1")
 					(unit 1)
@@ -2272,7 +2202,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b11a1149-af1e-4d2e-b9ef-9558fb40c6e9")
-		(property "Reference" "C36"
+		(property "Reference" "C19"
 			(at 42.3672 67.4116 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2283,7 +2213,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "0.1u"
 			(at 42.3672 69.723 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2338,17 +2268,6 @@
 				)
 			)
 		)
-		(property "Mfg" "MLASH168SB7104KTNA01"
-			(at 39.37 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "e41339b2-0b78-4afa-a522-54a4100e50d6")
 		)
@@ -2357,12 +2276,12 @@
 		)
 		(instances
 			(project "DEI"
-				(path "/1469f349-54e5-4a37-953e-ac48c70e29b2/d41a835d-0002-40e6-b2c5-562251bf7d32/7b8754e3-7888-44e1-99a1-5ee65bae4b91"
-					(reference "C36")
+				(path "/1469f349-54e5-4a37-953e-ac48c70e29b2/d41a835d-0002-40e6-b2c5-562251bf7d32/b8ad50d8-c271-44ff-b140-dd0f61fc62a8"
+					(reference "C19")
 					(unit 1)
 				)
 			)
-			(project "power-mux-block"
+			(project "Power_Mux"
 				(path "/c8207045-8aef-4538-bcc4-1e380c549c2c"
 					(reference "C3")
 					(unit 1)
@@ -2381,7 +2300,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fffce44d-6a2f-431a-a7e0-1c503bf34ef7")
-		(property "Reference" "C35"
+		(property "Reference" "C17"
 			(at 38.5572 44.5516 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2392,7 +2311,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "0.1u"
 			(at 38.5572 46.863 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2447,17 +2366,6 @@
 				)
 			)
 		)
-		(property "Mfg" "MLASH168SB7104KTNA01"
-			(at 35.56 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "8a22e724-4c34-405a-838f-8e503fe5692a")
 		)
@@ -2466,12 +2374,12 @@
 		)
 		(instances
 			(project "DEI"
-				(path "/1469f349-54e5-4a37-953e-ac48c70e29b2/d41a835d-0002-40e6-b2c5-562251bf7d32/7b8754e3-7888-44e1-99a1-5ee65bae4b91"
-					(reference "C35")
+				(path "/1469f349-54e5-4a37-953e-ac48c70e29b2/d41a835d-0002-40e6-b2c5-562251bf7d32/b8ad50d8-c271-44ff-b140-dd0f61fc62a8"
+					(reference "C17")
 					(unit 1)
 				)
 			)
-			(project "power-mux-block"
+			(project "Power_Mux"
 				(path "/c8207045-8aef-4538-bcc4-1e380c549c2c"
 					(reference "C2")
 					(unit 1)
