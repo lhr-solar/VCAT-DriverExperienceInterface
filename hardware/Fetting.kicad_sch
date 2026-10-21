@@ -11062,25 +11062,25 @@
 		(fields_autoplaced yes)
 		(uuid "828cc57e-b928-410a-9c09-08278e793621")
 		(property "Reference" "C49"
-			(at 110.49 82.5499 0)
+			(at 118.11 82.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "100uf"
-			(at 110.49 85.0899 0)
+		(property "Value" "100u"
+			(at 118.11 85.0899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""

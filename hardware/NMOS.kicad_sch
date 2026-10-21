@@ -1092,7 +1092,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n"
 			(at 137.16 81.2799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1394,7 +1394,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 153.67 60.9599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1672,7 +1672,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100K"
+		(property "Value" "100k"
 			(at 127 81.2799 0)
 			(show_name no)
 			(do_not_autoplace no)

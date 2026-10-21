@@ -7,7 +7,7 @@
 	(lib_symbols)
 	(wire
 		(pts
-			(xy 110.49 72.39) (xy 118.11 72.39)
+			(xy 88.9 69.85) (xy 82.55 69.85)
 		)
 		(stroke
 			(width 0)
@@ -17,7 +17,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 45.72) (xy 88.9 45.72)
+			(xy 116.84 48.26) (xy 110.49 48.26)
 		)
 		(stroke
 			(width 0)
@@ -27,7 +27,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 69.85) (xy 88.9 69.85)
+			(xy 118.11 72.39) (xy 110.49 72.39)
 		)
 		(stroke
 			(width 0)
@@ -37,7 +37,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 60.96) (xy 118.11 60.96)
+			(xy 88.9 58.42) (xy 81.28 58.42)
 		)
 		(stroke
 			(width 0)
@@ -47,7 +47,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 58.42) (xy 88.9 58.42)
+			(xy 116.84 60.96) (xy 110.49 60.96)
 		)
 		(stroke
 			(width 0)
@@ -87,7 +87,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 48.26) (xy 119.38 48.26)
+			(xy 88.9 44.45) (xy 80.01 44.45)
 		)
 		(stroke
 			(width 0)
@@ -97,45 +97,45 @@
 	)
 	(hierarchical_label "GND"
 		(shape bidirectional)
-		(at 82.55 58.42 180)
+		(at 116.84 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "17a0b4d5-5cee-40f5-b0e1-78697f52e31d")
 	)
 	(hierarchical_label "Left_Fet"
 		(shape input)
-		(at 119.38 48.26 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "192d4530-9155-48fd-8c7b-4ffbfb7c3b9a")
-	)
-	(hierarchical_label "GND"
-		(shape bidirectional)
-		(at 82.55 45.72 180)
+		(at 80.01 44.45 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "54dd59f3-35aa-43ba-bf73-883c2e5de737")
+		(uuid "192d4530-9155-48fd-8c7b-4ffbfb7c3b9a")
 	)
-	(hierarchical_label "Head_fet"
-		(shape input)
-		(at 118.11 72.39 0)
+	(hierarchical_label "GND"
+		(shape bidirectional)
+		(at 116.84 48.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
+		)
+		(uuid "54dd59f3-35aa-43ba-bf73-883c2e5de737")
+	)
+	(hierarchical_label "Head_fet"
+		(shape input)
+		(at 82.55 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
 		)
 		(uuid "56c60e96-4f49-4a39-a918-f4e81a1b9468")
 	)
@@ -152,23 +152,23 @@
 	)
 	(hierarchical_label "GND"
 		(shape bidirectional)
-		(at 81.28 69.85 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6faab4da-2aec-4035-9ebb-c3d11a59cb31")
-	)
-	(hierarchical_label "Right_Fet"
-		(shape input)
-		(at 118.11 60.96 0)
+		(at 118.11 72.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
+		)
+		(uuid "6faab4da-2aec-4035-9ebb-c3d11a59cb31")
+	)
+	(hierarchical_label "Right_Fet"
+		(shape input)
+		(at 81.28 58.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
 		)
 		(uuid "95ff8b43-175a-45ae-965d-a81ccb4d675e")
 	)
@@ -234,13 +234,13 @@
 			)
 		)
 		(pin "FetIN" input
-			(at 110.49 48.26 0)
+			(at 88.9 44.45 180)
 			(uuid "8e69fe57-fed4-4484-ba2b-b6bca3324775")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "Gate" input
@@ -254,13 +254,13 @@
 			)
 		)
 		(pin "GND" bidirectional
-			(at 88.9 45.72 180)
+			(at 110.49 48.26 0)
 			(uuid "c6e69097-fb8c-4fa8-9383-02893fc5cb29")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(instances
@@ -310,13 +310,13 @@
 			)
 		)
 		(pin "FetIN" input
-			(at 110.49 72.39 0)
+			(at 88.9 69.85 180)
 			(uuid "74aabede-a217-4f6a-8830-f44a8c9dea9a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "Gate" input
@@ -330,13 +330,13 @@
 			)
 		)
 		(pin "GND" bidirectional
-			(at 88.9 69.85 180)
+			(at 110.49 72.39 0)
 			(uuid "54df92ae-5cb3-40c2-98e0-61f5571ca29c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(instances
@@ -387,13 +387,13 @@
 			)
 		)
 		(pin "FetIN" input
-			(at 110.49 60.96 0)
+			(at 88.9 58.42 180)
 			(uuid "1b96ec93-81cb-44a7-a96a-63ad64cd4b83")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "Gate" input
@@ -407,13 +407,13 @@
 			)
 		)
 		(pin "GND" bidirectional
-			(at 88.9 58.42 180)
+			(at 110.49 60.96 0)
 			(uuid "d0a0c18b-9465-4bb6-b46b-e62edd2e162c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(instances
