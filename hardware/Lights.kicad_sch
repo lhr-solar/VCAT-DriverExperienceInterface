@@ -1,0 +1,427 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "e6be626f-0116-4d22-91ea-1b55e24c6b20")
+	(paper "A5")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 82.55 69.85) (xy 88.9 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25072622-4428-47ba-a755-99239078985c")
+	)
+	(wire
+		(pts
+			(xy 116.84 48.26) (xy 110.49 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3eaa11b2-2877-4f6b-84a8-4e9393547c90")
+	)
+	(wire
+		(pts
+			(xy 118.11 72.39) (xy 110.49 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "429d39f6-051a-40ad-97e0-ee85a398edce")
+	)
+	(wire
+		(pts
+			(xy 116.84 60.96) (xy 110.49 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91ae8621-b20d-4fc8-8bcf-6b50b70ea6f5")
+	)
+	(wire
+		(pts
+			(xy 110.49 45.72) (xy 119.38 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c4b43b2-7654-41e0-a359-2bfc3d11f618")
+	)
+	(wire
+		(pts
+			(xy 85.09 59.69) (xy 88.9 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a25c62f5-d385-4f9c-81b9-749f415bede7")
+	)
+	(wire
+		(pts
+			(xy 110.49 69.85) (xy 115.57 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af17a2e9-cd58-47ca-b11f-bce516d2c262")
+	)
+	(wire
+		(pts
+			(xy 110.49 58.42) (xy 118.11 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b94a3d4f-872b-4b4a-bbf8-89604658cba8")
+	)
+	(wire
+		(pts
+			(xy 85.09 45.72) (xy 88.9 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb48ed05-4d6e-47ef-9e24-5612b94af410")
+	)
+	(hierarchical_label "GND"
+		(shape bidirectional)
+		(at 116.84 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "17a0b4d5-5cee-40f5-b0e1-78697f52e31d")
+	)
+	(hierarchical_label "Left_Fet"
+		(shape input)
+		(at 119.38 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "192d4530-9155-48fd-8c7b-4ffbfb7c3b9a")
+	)
+	(hierarchical_label "GND"
+		(shape bidirectional)
+		(at 116.84 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "54dd59f3-35aa-43ba-bf73-883c2e5de737")
+	)
+	(hierarchical_label "Head_fet"
+		(shape input)
+		(at 115.57 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "56c60e96-4f49-4a39-a918-f4e81a1b9468")
+	)
+	(hierarchical_label "Right_Gate"
+		(shape input)
+		(at 85.09 59.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5eedcc7b-e998-43d3-ad5f-16290c4eb6e6")
+	)
+	(hierarchical_label "GND"
+		(shape bidirectional)
+		(at 118.11 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6faab4da-2aec-4035-9ebb-c3d11a59cb31")
+	)
+	(hierarchical_label "Right_Fet"
+		(shape input)
+		(at 118.11 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "95ff8b43-175a-45ae-965d-a81ccb4d675e")
+	)
+	(hierarchical_label "Head_Gate"
+		(shape input)
+		(at 82.55 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "96347a85-4877-4384-ba84-625d1268fe13")
+	)
+	(hierarchical_label "Left_Gate"
+		(shape input)
+		(at 85.09 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e1613102-7709-4b84-9941-92d8728a0b7d")
+	)
+	(sheet
+		(at 88.9 43.18)
+		(size 21.59 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "b37209a4-58c6-485e-9ae0-dfc559dfc74c")
+		(property "Sheetname" "Fetting_Left"
+			(at 88.9 42.4684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Fetting.kicad_sch"
+			(at 88.9 51.3846 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "FetIN" input
+			(at 110.49 45.72 0)
+			(uuid "8e69fe57-fed4-4484-ba2b-b6bca3324775")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Gate" input
+			(at 88.9 45.72 180)
+			(uuid "321f695e-3309-4881-9a8f-f48b532b30fe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND" bidirectional
+			(at 110.49 48.26 0)
+			(uuid "c6e69097-fb8c-4fa8-9383-02893fc5cb29")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "DEI"
+				(path "/1469f349-54e5-4a37-953e-ac48c70e29b2/62c62208-3ad7-4747-b842-0db22efa2c00"
+					(page "28")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 88.9 67.31)
+		(size 21.59 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "c5ef5451-f376-40f1-978e-9f58b1b49c9d")
+		(property "Sheetname" "Fetting_Head"
+			(at 92.202 78.486 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Fetting.kicad_sch"
+			(at 88.9 75.5146 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "FetIN" input
+			(at 110.49 69.85 0)
+			(uuid "74aabede-a217-4f6a-8830-f44a8c9dea9a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Gate" input
+			(at 88.9 69.85 180)
+			(uuid "60a5695e-59c9-4b0c-84f9-5dc5a02bfe93")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND" bidirectional
+			(at 110.49 72.39 0)
+			(uuid "54df92ae-5cb3-40c2-98e0-61f5571ca29c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "DEI"
+				(path "/1469f349-54e5-4a37-953e-ac48c70e29b2/62c62208-3ad7-4747-b842-0db22efa2c00"
+					(page "30")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 88.9 55.88)
+		(size 21.59 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "d7551ab7-02b4-4db5-ad32-6a64598e5e63")
+		(property "Sheetname" "Fetting_Right"
+			(at 88.9 55.1684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Fetting.kicad_sch"
+			(at 88.9 64.0846 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "FetIN" input
+			(at 110.49 58.42 0)
+			(uuid "1b96ec93-81cb-44a7-a96a-63ad64cd4b83")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Gate" input
+			(at 88.9 59.69 180)
+			(uuid "239278ba-b91a-42c6-b195-28e8e8522993")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND" bidirectional
+			(at 110.49 60.96 0)
+			(uuid "d0a0c18b-9465-4bb6-b46b-e62edd2e162c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "DEI"
+				(path "/1469f349-54e5-4a37-953e-ac48c70e29b2/62c62208-3ad7-4747-b842-0db22efa2c00"
+					(page "31")
+				)
+			)
+		)
+	)
+)
