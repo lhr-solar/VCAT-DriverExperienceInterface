@@ -10845,7 +10845,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "443ec99b-3d36-446e-aae9-5f4147a13c86")
-		(property "Reference" "R30"
+		(property "Reference" "R70"
 			(at 121.92 82.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10867,7 +10867,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 126.238 83.82 90)
 			(hide yes)
 			(show_name no)
@@ -10909,15 +10909,15 @@
 		(instances
 			(project "DEI"
 				(path "/1469f349-54e5-4a37-953e-ac48c70e29b2/62c62208-3ad7-4747-b842-0db22efa2c00/b37209a4-58c6-485e-9ae0-dfc559dfc74c"
-					(reference "R30")
+					(reference "R70")
 					(unit 1)
 				)
 				(path "/1469f349-54e5-4a37-953e-ac48c70e29b2/62c62208-3ad7-4747-b842-0db22efa2c00/c5ef5451-f376-40f1-978e-9f58b1b49c9d"
-					(reference "R31")
+					(reference "R80")
 					(unit 1)
 				)
 				(path "/1469f349-54e5-4a37-953e-ac48c70e29b2/62c62208-3ad7-4747-b842-0db22efa2c00/d7551ab7-02b4-4db5-ad32-6a64598e5e63"
-					(reference "R32")
+					(reference "R82")
 					(unit 1)
 				)
 			)
@@ -10934,7 +10934,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6bbf90ee-64f9-40c5-8ab9-5f33666e6f28")
-		(property "Reference" "Q19"
+		(property "Reference" "Q15"
 			(at 147.32 81.2801 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10956,7 +10956,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LSOM_IRLM:SOT23"
 			(at 146.05 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -11022,6 +11022,16 @@
 				)
 			)
 		)
+		(property "p/n" "IRLML0030TRPBF"
+			(at 140.97 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "62f8cce6-db34-44c0-b634-12bd260ec145")
 		)
@@ -11034,15 +11044,15 @@
 		(instances
 			(project "DEI"
 				(path "/1469f349-54e5-4a37-953e-ac48c70e29b2/62c62208-3ad7-4747-b842-0db22efa2c00/b37209a4-58c6-485e-9ae0-dfc559dfc74c"
-					(reference "Q19")
+					(reference "Q15")
 					(unit 1)
 				)
 				(path "/1469f349-54e5-4a37-953e-ac48c70e29b2/62c62208-3ad7-4747-b842-0db22efa2c00/c5ef5451-f376-40f1-978e-9f58b1b49c9d"
-					(reference "Q20")
+					(reference "Q16")
 					(unit 1)
 				)
 				(path "/1469f349-54e5-4a37-953e-ac48c70e29b2/62c62208-3ad7-4747-b842-0db22efa2c00/d7551ab7-02b4-4db5-ad32-6a64598e5e63"
-					(reference "Q21")
+					(reference "Q17")
 					(unit 1)
 				)
 			)
@@ -11059,10 +11069,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "828cc57e-b928-410a-9c09-08278e793621")
-		(property "Reference" "C49"
-			(at 118.11 82.5499 0)
+		(property "Reference" "C46"
+			(at 107.95 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11073,7 +11082,7 @@
 			)
 		)
 		(property "Value" "100u"
-			(at 118.11 85.0899 0)
+			(at 107.188 86.106 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11083,7 +11092,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 113.3348 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -11125,15 +11134,15 @@
 		(instances
 			(project "DEI"
 				(path "/1469f349-54e5-4a37-953e-ac48c70e29b2/62c62208-3ad7-4747-b842-0db22efa2c00/b37209a4-58c6-485e-9ae0-dfc559dfc74c"
-					(reference "C49")
+					(reference "C46")
 					(unit 1)
 				)
 				(path "/1469f349-54e5-4a37-953e-ac48c70e29b2/62c62208-3ad7-4747-b842-0db22efa2c00/c5ef5451-f376-40f1-978e-9f58b1b49c9d"
-					(reference "C60")
+					(reference "C61")
 					(unit 1)
 				)
 				(path "/1469f349-54e5-4a37-953e-ac48c70e29b2/62c62208-3ad7-4747-b842-0db22efa2c00/d7551ab7-02b4-4db5-ad32-6a64598e5e63"
-					(reference "C61")
+					(reference "C62")
 					(unit 1)
 				)
 			)
@@ -11152,7 +11161,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "880f0081-4619-4816-a0d1-282b51787c9d")
-		(property "Reference" "D16"
+		(property "Reference" "D33"
 			(at 128.27 99.3774 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11249,15 +11258,15 @@
 		(instances
 			(project "DEI"
 				(path "/1469f349-54e5-4a37-953e-ac48c70e29b2/62c62208-3ad7-4747-b842-0db22efa2c00/b37209a4-58c6-485e-9ae0-dfc559dfc74c"
-					(reference "D16")
+					(reference "D33")
 					(unit 1)
 				)
 				(path "/1469f349-54e5-4a37-953e-ac48c70e29b2/62c62208-3ad7-4747-b842-0db22efa2c00/c5ef5451-f376-40f1-978e-9f58b1b49c9d"
-					(reference "D17")
+					(reference "D37")
 					(unit 1)
 				)
 				(path "/1469f349-54e5-4a37-953e-ac48c70e29b2/62c62208-3ad7-4747-b842-0db22efa2c00/d7551ab7-02b4-4db5-ad32-6a64598e5e63"
-					(reference "D19")
+					(reference "D38")
 					(unit 1)
 				)
 			)
@@ -11276,7 +11285,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa92b8e0-57cf-4da9-9a4c-4ffdab4873d9")
-		(property "Reference" "R61"
+		(property "Reference" "R71"
 			(at 129.54 88.8999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11298,7 +11307,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 133.858 90.17 90)
 			(hide yes)
 			(show_name no)
@@ -11340,15 +11349,15 @@
 		(instances
 			(project "DEI"
 				(path "/1469f349-54e5-4a37-953e-ac48c70e29b2/62c62208-3ad7-4747-b842-0db22efa2c00/b37209a4-58c6-485e-9ae0-dfc559dfc74c"
-					(reference "R61")
+					(reference "R71")
 					(unit 1)
 				)
 				(path "/1469f349-54e5-4a37-953e-ac48c70e29b2/62c62208-3ad7-4747-b842-0db22efa2c00/c5ef5451-f376-40f1-978e-9f58b1b49c9d"
-					(reference "R70")
+					(reference "R81")
 					(unit 1)
 				)
 				(path "/1469f349-54e5-4a37-953e-ac48c70e29b2/62c62208-3ad7-4747-b842-0db22efa2c00/d7551ab7-02b4-4db5-ad32-6a64598e5e63"
-					(reference "R91")
+					(reference "R83")
 					(unit 1)
 				)
 			)

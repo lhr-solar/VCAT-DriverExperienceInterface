@@ -2250,7 +2250,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1e4802a2-1696-4f84-a997-10989ac104a8")
-		(property "Reference" "R8"
+		(property "Reference" "R13"
 			(at 86.106 48.26 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2334,7 +2334,7 @@
 		(instances
 			(project "DEI"
 				(path "/1469f349-54e5-4a37-953e-ac48c70e29b2/807a1c53-864d-4860-97ef-43e72c60d831"
-					(reference "R8")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -2351,7 +2351,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1fe3fa78-8c96-4fec-92a4-65d0f069d53a")
-		(property "Reference" "R9"
+		(property "Reference" "R14"
 			(at 93.726 48.26 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2435,7 +2435,7 @@
 		(instances
 			(project "DEI"
 				(path "/1469f349-54e5-4a37-953e-ac48c70e29b2/807a1c53-864d-4860-97ef-43e72c60d831"
-					(reference "R9")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -2453,7 +2453,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "31c1c8b0-f199-43b5-8a72-395cd877a32e")
-		(property "Reference" "D9"
+		(property "Reference" "D6"
 			(at 82.55 72.39 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2555,7 +2555,7 @@
 		(instances
 			(project "DEI"
 				(path "/1469f349-54e5-4a37-953e-ac48c70e29b2/807a1c53-864d-4860-97ef-43e72c60d831"
-					(reference "D9")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -2573,7 +2573,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a1333329-f4e2-40f5-9812-35a41f66040e")
-		(property "Reference" "J5"
+		(property "Reference" "J22"
 			(at 35.56 22.86 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2711,7 +2711,7 @@
 		(instances
 			(project "DEI"
 				(path "/1469f349-54e5-4a37-953e-ac48c70e29b2/807a1c53-864d-4860-97ef-43e72c60d831"
-					(reference "J5")
+					(reference "J22")
 					(unit 1)
 				)
 			)
@@ -2729,7 +2729,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb253572-93fa-4369-bbf7-5f45d193f6ff")
-		(property "Reference" "#FLG05"
+		(property "Reference" "#FLG01"
 			(at 71.755 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -2790,7 +2790,7 @@
 		(instances
 			(project "DEI"
 				(path "/1469f349-54e5-4a37-953e-ac48c70e29b2/807a1c53-864d-4860-97ef-43e72c60d831"
-					(reference "#FLG05")
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -2807,7 +2807,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "da76b70d-1d08-42fa-9779-e2d100318d24")
-		(property "Reference" "D8"
+		(property "Reference" "D5"
 			(at 59.69 24.765 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2891,7 +2891,7 @@
 		(instances
 			(project "DEI"
 				(path "/1469f349-54e5-4a37-953e-ac48c70e29b2/807a1c53-864d-4860-97ef-43e72c60d831"
-					(reference "D8")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -2908,7 +2908,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f4c3dd7f-84ec-4dcb-899f-0b4a41d3690f")
-		(property "Reference" "C14"
+		(property "Reference" "C9"
 			(at 64.3128 37.9984 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2994,7 +2994,7 @@
 		(instances
 			(project "DEI"
 				(path "/1469f349-54e5-4a37-953e-ac48c70e29b2/807a1c53-864d-4860-97ef-43e72c60d831"
-					(reference "C14")
+					(reference "C9")
 					(unit 1)
 				)
 			)

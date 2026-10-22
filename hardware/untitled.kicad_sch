@@ -1620,7 +1620,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "303d2609-9c16-461b-b559-cf27180f4fd0")
-		(property "Reference" "D33"
+		(property "Reference" "D9"
 			(at 160.528 27.94 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1641,7 +1641,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 163.83 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -1694,7 +1694,7 @@
 		(instances
 			(project "DEI"
 				(path "/1469f349-54e5-4a37-953e-ac48c70e29b2/d41a835d-0002-40e6-b2c5-562251bf7d32"
-					(reference "D33")
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -1711,7 +1711,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "37c37ce9-9829-4186-8170-20ac1e0ceecc")
-		(property "Reference" "R28"
+		(property "Reference" "R20"
 			(at 157.734 49.784 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1733,7 +1733,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 160.782 50.8 90)
 			(hide yes)
 			(show_name no)
@@ -1775,7 +1775,7 @@
 		(instances
 			(project "DEI"
 				(path "/1469f349-54e5-4a37-953e-ac48c70e29b2/d41a835d-0002-40e6-b2c5-562251bf7d32"
-					(reference "R28")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -1792,7 +1792,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3a7548ec-c1f6-4da0-9e48-7b7e778b960a")
-		(property "Reference" "D34"
+		(property "Reference" "D8"
 			(at 118.618 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1802,9 +1802,8 @@
 				)
 			)
 		)
-		(property "Value" "Status LED"
+		(property "Value" "12V Power"
 			(at 119.126 55.88 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1813,7 +1812,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 121.92 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -1866,7 +1865,7 @@
 		(instances
 			(project "DEI"
 				(path "/1469f349-54e5-4a37-953e-ac48c70e29b2/d41a835d-0002-40e6-b2c5-562251bf7d32"
-					(reference "D34")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -1883,7 +1882,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5da11c96-e343-4cc4-84cf-ff31caad27e3")
-		(property "Reference" "D32"
+		(property "Reference" "D10"
 			(at 231.648 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1904,7 +1903,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 234.95 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -1957,7 +1956,7 @@
 		(instances
 			(project "DEI"
 				(path "/1469f349-54e5-4a37-953e-ac48c70e29b2/d41a835d-0002-40e6-b2c5-562251bf7d32"
-					(reference "D32")
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -1985,7 +1984,7 @@
 			)
 		)
 		(property "Value" "Fuse"
-			(at 66.802 43.18 90)
+			(at 67.056 41.402 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1994,7 +1993,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 67.31 44.958 90)
 			(hide yes)
 			(show_name no)
@@ -2076,7 +2075,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 107.95 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -2152,7 +2151,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 107.95 25.908 90)
 			(hide yes)
 			(show_name no)
@@ -2211,7 +2210,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7b114900-e8c6-4816-82da-1c99643e3164")
-		(property "Reference" "TP5"
+		(property "Reference" "TP1"
 			(at 60.452 37.846 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2233,7 +2232,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 66.04 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -2272,7 +2271,7 @@
 		(instances
 			(project "DEI"
 				(path "/1469f349-54e5-4a37-953e-ac48c70e29b2/d41a835d-0002-40e6-b2c5-562251bf7d32"
-					(reference "TP5")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -2289,7 +2288,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "886fa973-dbe8-45e1-bb62-1401c941d7bc")
-		(property "Reference" "5V_USB"
+		(property "Reference" "5V_USB1"
 			(at 205.74 59.436 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2311,7 +2310,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 190.5 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -2350,7 +2349,7 @@
 		(instances
 			(project "DEI"
 				(path "/1469f349-54e5-4a37-953e-ac48c70e29b2/d41a835d-0002-40e6-b2c5-562251bf7d32"
-					(reference "5V_USB")
+					(reference "5V_USB1")
 					(unit 1)
 				)
 			)
@@ -2367,7 +2366,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "97d9f570-bd11-441a-a28a-4c373d93c38f")
-		(property "Reference" "R80"
+		(property "Reference" "R22"
 			(at 222.25 47.244 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2377,7 +2376,7 @@
 				)
 			)
 		)
-		(property "Value" "2k"
+		(property "Value" "1k"
 			(at 225.806 45.72 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2387,7 +2386,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 226.06 47.498 90)
 			(hide yes)
 			(show_name no)
@@ -2429,7 +2428,7 @@
 		(instances
 			(project "DEI"
 				(path "/1469f349-54e5-4a37-953e-ac48c70e29b2/d41a835d-0002-40e6-b2c5-562251bf7d32"
-					(reference "R80")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -2469,7 +2468,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 223.52 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -2526,7 +2525,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3718027-688f-42df-9b64-0b9a78706ee4")
-		(property "Reference" "TP1"
+		(property "Reference" "TP3"
 			(at 156.21 38.6079 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2548,7 +2547,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 158.75 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -2587,7 +2586,7 @@
 		(instances
 			(project "DEI"
 				(path "/1469f349-54e5-4a37-953e-ac48c70e29b2/d41a835d-0002-40e6-b2c5-562251bf7d32"
-					(reference "TP1")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -2604,7 +2603,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c1553fa1-00db-4bb8-a837-87e2cafe3e06")
-		(property "Reference" "5V_Mux"
+		(property "Reference" "5V_Mux1"
 			(at 182.88 30.734 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2626,7 +2625,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 198.12 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -2665,7 +2664,7 @@
 		(instances
 			(project "DEI"
 				(path "/1469f349-54e5-4a37-953e-ac48c70e29b2/d41a835d-0002-40e6-b2c5-562251bf7d32"
-					(reference "5V_Mux")
+					(reference "5V_Mux1")
 					(unit 1)
 				)
 			)
@@ -2682,7 +2681,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c1682b2a-e6b4-409c-958d-9d8e7739afde")
-		(property "Reference" "R82"
+		(property "Reference" "R18"
 			(at 109.22 59.944 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2702,7 +2701,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 113.03 60.198 90)
 			(hide yes)
 			(show_name no)
@@ -2744,7 +2743,7 @@
 		(instances
 			(project "DEI"
 				(path "/1469f349-54e5-4a37-953e-ac48c70e29b2/d41a835d-0002-40e6-b2c5-562251bf7d32"
-					(reference "R82")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -2761,7 +2760,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c8469bc0-7c93-4bd6-a57c-64850d4a932b")
-		(property "Reference" "R81"
+		(property "Reference" "R19"
 			(at 151.13 28.194 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2781,7 +2780,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 154.94 28.448 90)
 			(hide yes)
 			(show_name no)
@@ -2823,7 +2822,7 @@
 		(instances
 			(project "DEI"
 				(path "/1469f349-54e5-4a37-953e-ac48c70e29b2/d41a835d-0002-40e6-b2c5-562251bf7d32"
-					(reference "R81")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -2861,7 +2860,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 110.49 37.338 90)
 			(hide yes)
 			(show_name no)
@@ -2920,8 +2919,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d333ff87-7e05-482d-a226-af587563cb89")
-		(property "Reference" "F5"
-			(at 110.236 32.004 90)
+		(property "Reference" "F3"
+			(at 110.236 32.766 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2931,7 +2930,7 @@
 			)
 		)
 		(property "Value" "TBD"
-			(at 113.538 28.194 90)
+			(at 114.3 28.194 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2943,7 +2942,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 110.49 32.258 90)
 			(hide yes)
 			(show_name no)
@@ -2985,7 +2984,7 @@
 		(instances
 			(project "DEI"
 				(path "/1469f349-54e5-4a37-953e-ac48c70e29b2/d41a835d-0002-40e6-b2c5-562251bf7d32"
-					(reference "F5")
+					(reference "F3")
 					(unit 1)
 				)
 			)
@@ -3023,7 +3022,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
 			(at 85.09 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -3082,7 +3081,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fff8d2e0-d44b-406c-ac8a-38a230dfe607")
-		(property "Reference" "R29"
+		(property "Reference" "R21"
 			(at 157.734 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3104,7 +3103,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 160.782 60.96 90)
 			(hide yes)
 			(show_name no)
@@ -3146,7 +3145,7 @@
 		(instances
 			(project "DEI"
 				(path "/1469f349-54e5-4a37-953e-ac48c70e29b2/d41a835d-0002-40e6-b2c5-562251bf7d32"
-					(reference "R29")
+					(reference "R21")
 					(unit 1)
 				)
 			)
