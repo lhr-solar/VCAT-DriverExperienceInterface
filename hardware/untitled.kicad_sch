@@ -481,6 +481,171 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:Polyfuse"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "F"
+				(at -2.54 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Polyfuse"
+				(at 2.54 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.27 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "resettable fuse PTC PPTC polyfuse polyswitch"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*polyfuse* *PTC*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Polyfuse_0_1"
+				(polyline
+					(pts
+						(xy -1.524 2.54) (xy -1.524 1.524) (xy 1.524 -1.524) (xy 1.524 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -0.762 2.54)
+					(end 0.762 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Polyfuse_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -837,22 +1002,10 @@
 		(uuid "4a9becfb-c8c3-4940-9751-f26cbff98587")
 	)
 	(junction
-		(at 100.33 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "71b4a3f4-b1cc-4a94-b9f7-89264ef7d26e")
-	)
-	(junction
 		(at 162.56 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7567f907-99eb-487f-b279-b3c98c915b59")
-	)
-	(junction
-		(at 60.96 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "813d82f9-190e-4984-9c6f-b8520a48af99")
 	)
 	(junction
 		(at 100.33 43.18)
@@ -918,7 +1071,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 36.83) (xy 100.33 36.83)
+			(xy 91.44 35.56) (xy 100.33 35.56)
 		)
 		(stroke
 			(width 0)
@@ -958,7 +1111,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 43.18) (xy 73.66 36.83)
+			(xy 73.66 43.18) (xy 73.66 35.56)
 		)
 		(stroke
 			(width 0)
@@ -1028,23 +1181,13 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 36.83) (xy 80.01 36.83)
+			(xy 73.66 35.56) (xy 81.28 35.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4a61bbed-25ca-4258-b1cb-24f368509a59")
-	)
-	(wire
-		(pts
-			(xy 100.33 35.56) (xy 100.33 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ff2e79c-ce45-41cf-938f-b2b1e6f4f24c")
 	)
 	(wire
 		(pts
@@ -1145,16 +1288,6 @@
 			(type default)
 		)
 		(uuid "78e702dc-3ff0-4f89-8617-ee0a2a798c97")
-	)
-	(wire
-		(pts
-			(xy 100.33 36.83) (xy 100.33 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b420c1f-4246-41cf-bf38-30d599652056")
 	)
 	(wire
 		(pts
@@ -1465,6 +1598,16 @@
 			(type default)
 		)
 		(uuid "fdf8735e-b386-4f4d-ab4b-3dd711fc6868")
+	)
+	(wire
+		(pts
+			(xy 100.33 35.56) (xy 100.33 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff99dd6b-5a22-4b94-aee0-8b4c0e332d98")
 	)
 	(hierarchical_label "GND"
 		(shape bidirectional)
@@ -1993,7 +2136,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "LHRS_Power:Fuse-3557-2"
 			(at 67.31 44.958 90)
 			(hide yes)
 			(show_name no)
@@ -2514,6 +2657,97 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Polyfuse")
+		(at 110.49 35.56 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9aa66d8a-98c9-44e8-b7a9-946af2a15f6a")
+		(property "Reference" "F5"
+			(at 114.046 34.036 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "200mA"
+			(at 110.744 38.354 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 115.57 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
+			(at 110.49 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "p/n" "0805L020"
+			(at 110.49 35.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ae9fefcd-74bc-4137-b9a9-3390c9450c2e")
+		)
+		(pin "2"
+			(uuid "4d934cf0-b4b9-4104-b539-6e3f70649cb8")
+		)
+		(instances
+			(project "DEI"
+				(path "/1469f349-54e5-4a37-953e-ac48c70e29b2/d41a835d-0002-40e6-b2c5-562251bf7d32"
+					(reference "F5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 153.67 43.18 0)
 		(unit 1)
@@ -2830,86 +3064,6 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 110.49 35.56 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "cc7897a6-c850-41d9-9b43-5c5e84d8ac57")
-		(property "Reference" "F4"
-			(at 114.808 34.29 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "130mA"
-			(at 111.252 38.1 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.1588)
-				)
-			)
-		)
-		(property "Footprint" "Fuse:Fuse_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 110.49 37.338 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 110.49 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Fuse"
-			(at 110.49 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "40cb8717-76a2-4f26-8217-bd720d6f1fad")
-		)
-		(pin "1"
-			(uuid "26db061f-8420-4706-87f5-cd2ea1975dba")
-		)
-		(instances
-			(project "DEI"
-				(path "/1469f349-54e5-4a37-953e-ac48c70e29b2/d41a835d-0002-40e6-b2c5-562251bf7d32"
-					(reference "F4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Fuse")
 		(at 110.49 30.48 90)
 		(unit 1)
 		(body_style 1)
@@ -2992,7 +3146,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 85.09 36.83 0)
+		(at 86.36 35.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3003,7 +3157,7 @@
 		(fields_autoplaced yes)
 		(uuid "d880606f-2523-45b5-9991-9a9311d220bd")
 		(property "Reference" "JP1"
-			(at 85.09 30.48 0)
+			(at 86.36 29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3013,7 +3167,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_2_Open"
-			(at 85.09 33.02 0)
+			(at 86.36 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3023,7 +3177,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
-			(at 85.09 36.83 0)
+			(at 86.36 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3034,7 +3188,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 44.45 0)
+			(at 86.36 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3045,7 +3199,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 85.09 41.91 0)
+			(at 86.36 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

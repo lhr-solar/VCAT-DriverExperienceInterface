@@ -1023,7 +1023,7 @@
 	)
 	(text "12V Vout"
 		(exclude_from_sim no)
-		(at 223.012 72.898 0)
+		(at 223.52 72.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1033,7 +1033,7 @@
 	)
 	(text "Vin: 4.6V to 60V"
 		(exclude_from_sim no)
-		(at 74.93 84.836 0)
+		(at 74.93 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1043,7 +1043,7 @@
 	)
 	(text "Fsw 400khz"
 		(exclude_from_sim no)
-		(at 90.17 113.538 0)
+		(at 90.17 113.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1054,7 +1054,7 @@
 	)
 	(text "Vout 5"
 		(exclude_from_sim no)
-		(at 107.442 112.776 0)
+		(at 107.95 113.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1064,7 +1064,7 @@
 	)
 	(text "12V-5V Buck Converter"
 		(exclude_from_sim no)
-		(at 129.794 60.452 0)
+		(at 129.54 60.96 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -9304,7 +9304,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DDC0006A-MFG"
+		(property "Footprint" "LHRS_ICs:DDC0006A-MFG"
 			(at 114.3 81.28 0)
 			(hide yes)
 			(show_name no)

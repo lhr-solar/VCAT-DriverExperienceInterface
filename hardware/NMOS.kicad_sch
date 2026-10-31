@@ -1235,7 +1235,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LSOM_IRLM:SOT23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
 			(at 153.67 69.85 0)
 			(hide yes)
 			(show_name no)
