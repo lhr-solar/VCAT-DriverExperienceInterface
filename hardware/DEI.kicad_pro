@@ -60,7 +60,7 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.25,
+          "min_clearance": 0.22,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 2,
@@ -76,12 +76,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "starved_thermal|140865000|75400000|f67946b0-aae1-471e-9cdb-011a505030dc|019851b5-4232-4a7e-b046-2614f5c76f2f|B.Cu",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -221,7 +216,10 @@
         0.25,
         0.3,
         0.5,
-        0.75
+        0.75,
+        1.5,
+        2.0,
+        3.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {

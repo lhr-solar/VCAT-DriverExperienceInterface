@@ -5386,16 +5386,6 @@
 		)
 		(uuid "7f4d87e7-859b-4ee6-8ef6-2d74235c36ca")
 	)
-	(label "SteeringCan_L"
-		(at 43.18 57.15 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "81d18c44-0598-45cd-9438-e495fb7987f6")
-	)
 	(label "Left_GND"
 		(at 168.91 189.23 180)
 		(effects
@@ -5465,6 +5455,16 @@
 			(justify right bottom)
 		)
 		(uuid "a1b1be02-de96-46c7-9f8f-b3c0479b7527")
+	)
+	(label "LightingCan_L"
+		(at 43.18 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b1be246e-46d9-42ee-b6e6-300c23e8a236")
 	)
 	(label "12V_Steering_Angle"
 		(at 93.98 30.48 0)
@@ -7558,6 +7558,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 154.94 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "p/n" "VSSAF510HM3/H"
 			(at 154.94 105.41 0)
 			(hide yes)
 			(show_name no)
