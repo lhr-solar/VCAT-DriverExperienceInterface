@@ -2107,17 +2107,6 @@
 		)
 		(uuid "1930a8c6-0dbc-4b73-84c9-9e39e936dff7")
 	)
-	(hierarchical_label "USB_D-"
-		(shape bidirectional)
-		(at 72.39 81.28 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "23158f13-92ad-4941-93b0-f1b8cff4aef4")
-	)
 	(hierarchical_label "CC2"
 		(shape bidirectional)
 		(at 52.07 38.1 0)
@@ -2195,17 +2184,6 @@
 		)
 		(uuid "a81e821b-87aa-475b-bf58-767a3467050c")
 	)
-	(hierarchical_label "USB_D+"
-		(shape bidirectional)
-		(at 72.39 83.82 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b89dd526-8205-4c51-a632-c4e8f4251bd1")
-	)
 	(hierarchical_label "USB_5V"
 		(shape output)
 		(at 67.31 25.4 90)
@@ -2228,6 +2206,17 @@
 		)
 		(uuid "f870526d-8e11-4cdd-9f5e-df7546f56408")
 	)
+	(hierarchical_label "USB_D+"
+		(shape bidirectional)
+		(at 72.39 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f8de6594-945c-4475-ada4-8f3024f566f4")
+	)
 	(hierarchical_label "CC2"
 		(shape bidirectional)
 		(at 96.52 41.91 180)
@@ -2238,6 +2227,17 @@
 			(justify right)
 		)
 		(uuid "f9f29e46-bcf2-4cdd-8cbd-013cb79f55a6")
+	)
+	(hierarchical_label "USB_D-"
+		(shape bidirectional)
+		(at 72.39 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fb3836ff-f90b-41d0-9d76-0686d5f4c5aa")
 	)
 	(symbol
 		(lib_id "Device:R")

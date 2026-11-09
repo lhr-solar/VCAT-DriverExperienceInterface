@@ -7,13 +7,33 @@
 	(lib_symbols)
 	(wire
 		(pts
-			(xy 82.55 69.85) (xy 88.9 69.85)
+			(xy 88.9 69.85) (xy 85.09 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0939e919-157d-4527-b3ab-905d17dd5c8c")
+	)
+	(wire
+		(pts
+			(xy 82.55 72.39) (xy 88.9 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "25072622-4428-47ba-a755-99239078985c")
+	)
+	(wire
+		(pts
+			(xy 85.09 67.31) (xy 85.09 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "293b507d-1f2c-4e5d-87b0-ae8900304b76")
 	)
 	(wire
 		(pts
@@ -37,6 +57,36 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 58.42) (xy 85.09 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61ad6412-8d96-4193-9a5e-62ac2bd5029b")
+	)
+	(wire
+		(pts
+			(xy 88.9 45.72) (xy 85.09 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f2fd68c-8a36-4976-86e7-23ec69e7d7bb")
+	)
+	(wire
+		(pts
+			(xy 85.09 43.18) (xy 85.09 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fa77304-f4f7-4de8-86fd-465c7b212556")
+	)
+	(wire
+		(pts
 			(xy 116.84 60.96) (xy 110.49 60.96)
 		)
 		(stroke
@@ -44,6 +94,16 @@
 			(type default)
 		)
 		(uuid "91ae8621-b20d-4fc8-8bcf-6b50b70ea6f5")
+	)
+	(wire
+		(pts
+			(xy 85.09 55.88) (xy 85.09 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92279c24-fdac-41a8-adcf-5dfd93358511")
 	)
 	(wire
 		(pts
@@ -57,7 +117,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 59.69) (xy 88.9 59.69)
+			(xy 85.09 60.96) (xy 88.9 60.96)
 		)
 		(stroke
 			(width 0)
@@ -87,7 +147,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 45.72) (xy 88.9 45.72)
+			(xy 85.09 48.26) (xy 88.9 48.26)
 		)
 		(stroke
 			(width 0)
@@ -141,7 +201,7 @@
 	)
 	(hierarchical_label "Right_Gate"
 		(shape input)
-		(at 85.09 59.69 180)
+		(at 85.09 60.96 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -174,7 +234,7 @@
 	)
 	(hierarchical_label "Head_Gate"
 		(shape input)
-		(at 82.55 69.85 180)
+		(at 82.55 72.39 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -183,9 +243,20 @@
 		)
 		(uuid "96347a85-4877-4384-ba84-625d1268fe13")
 	)
+	(hierarchical_label "5V"
+		(shape input)
+		(at 85.09 67.31 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dfe25bf3-8527-4aca-896e-e6514b39e227")
+	)
 	(hierarchical_label "Left_Gate"
 		(shape input)
-		(at 85.09 45.72 180)
+		(at 85.09 48.26 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -193,6 +264,28 @@
 			(justify right)
 		)
 		(uuid "e1613102-7709-4b84-9941-92d8728a0b7d")
+	)
+	(hierarchical_label "5V"
+		(shape input)
+		(at 85.09 55.88 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e9b0f1ca-a420-4ba9-900a-02a2405fc5d1")
+	)
+	(hierarchical_label "5V"
+		(shape input)
+		(at 85.09 43.18 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f7c07348-00dc-41c4-91fa-0951279c2627")
 	)
 	(sheet
 		(at 88.9 43.18)
@@ -244,7 +337,7 @@
 			)
 		)
 		(pin "Gate" input
-			(at 88.9 45.72 180)
+			(at 88.9 48.26 180)
 			(uuid "321f695e-3309-4881-9a8f-f48b532b30fe")
 			(effects
 				(font
@@ -261,6 +354,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "5V" input
+			(at 88.9 45.72 180)
+			(uuid "5b453b68-13ea-4aa5-a339-8dbb88354a9b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -320,7 +423,7 @@
 			)
 		)
 		(pin "Gate" input
-			(at 88.9 69.85 180)
+			(at 88.9 72.39 180)
 			(uuid "60a5695e-59c9-4b0c-84f9-5dc5a02bfe93")
 			(effects
 				(font
@@ -337,6 +440,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "5V" input
+			(at 88.9 69.85 180)
+			(uuid "2e50cb4f-e0bc-4906-9e61-1ff0caeef486")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -397,7 +510,7 @@
 			)
 		)
 		(pin "Gate" input
-			(at 88.9 59.69 180)
+			(at 88.9 60.96 180)
 			(uuid "239278ba-b91a-42c6-b195-28e8e8522993")
 			(effects
 				(font
@@ -414,6 +527,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "5V" input
+			(at 88.9 58.42 180)
+			(uuid "184c2c70-4d47-424d-8425-2c8390d862e0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

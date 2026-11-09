@@ -3136,7 +3136,7 @@
 	)
 	(rectangle
 		(start 46.99 16.51)
-		(end 118.11 35.56)
+		(end 118.11 38.1)
 		(stroke
 			(width 0)
 			(type default)
@@ -3648,7 +3648,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 40.64) (xy 205.74 40.64)
+			(xy 210.82 43.18) (xy 205.74 43.18)
 		)
 		(stroke
 			(width 0)
@@ -4278,6 +4278,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 40.64) (xy 210.82 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a37e54c3-4b77-43ea-ba92-b506285bc75b")
+	)
+	(wire
+		(pts
 			(xy 182.88 92.71) (xy 182.88 95.25)
 		)
 		(stroke
@@ -4728,13 +4738,23 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 40.64) (xy 205.74 43.18)
+			(xy 205.74 43.18) (xy 205.74 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "da2ed2f3-ea03-492c-89ff-d5e014977371")
+	)
+	(wire
+		(pts
+			(xy 86.36 33.02) (xy 95.25 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db46818d-d335-47ec-8996-8d36ee70b762")
 	)
 	(wire
 		(pts
@@ -4945,6 +4965,16 @@
 			(justify left bottom)
 		)
 		(uuid "11f94cda-9916-43da-98bb-b35bde643be5")
+	)
+	(label "5V"
+		(at 95.25 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "16b3ba0e-bc2a-43d4-90d8-1b80f6be0d9e")
 	)
 	(label "LightingCan_H"
 		(at 67.31 133.35 180)
@@ -5645,6 +5675,16 @@
 			(justify right bottom)
 		)
 		(uuid "f20225a6-13c9-4695-ba5d-36be24640825")
+	)
+	(label "5V"
+		(at 205.74 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f25e9b29-0a66-4d1f-930d-3350e4bc408c")
 	)
 	(label "SteeringCan_H"
 		(at 74.93 88.9 0)
@@ -7203,7 +7243,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 205.74 43.18 0)
+		(at 205.74 44.45 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7214,7 +7254,7 @@
 		(fields_autoplaced yes)
 		(uuid "406c045c-611e-478f-8ca5-82d264e32ab7")
 		(property "Reference" "#PWR027"
-			(at 205.74 49.53 0)
+			(at 205.74 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7225,7 +7265,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 205.74 48.26 0)
+			(at 205.74 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7236,7 +7276,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 205.74 43.18 0)
+			(at 205.74 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7247,7 +7287,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 205.74 43.18 0)
+			(at 205.74 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7258,7 +7298,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 205.74 43.18 0)
+			(at 205.74 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10292,7 +10332,7 @@
 	)
 	(sheet
 		(at 210.82 22.86)
-		(size 27.94 19.05)
+		(size 27.94 22.86)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -10318,7 +10358,7 @@
 			)
 		)
 		(property "Sheetfile" "Lights.kicad_sch"
-			(at 210.82 42.4946 0)
+			(at 210.82 46.3046 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10400,8 +10440,18 @@
 			)
 		)
 		(pin "GND" bidirectional
-			(at 210.82 40.64 180)
+			(at 210.82 43.18 180)
 			(uuid "a33bfe2d-e1d1-4beb-a69a-74cac26c64af")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "5V" input
+			(at 210.82 40.64 180)
+			(uuid "edc27bfb-f06c-4352-bdbc-f44fd43d3619")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10547,7 +10597,7 @@
 	)
 	(sheet
 		(at 66.04 22.86)
-		(size 20.32 10.16)
+		(size 20.32 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -10662,6 +10712,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "5V" output
+			(at 86.36 33.02 0)
+			(uuid "6c06dbbd-b68b-4f05-b1c6-19ee41dd2bf7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
