@@ -2311,7 +2311,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LHRS_Special:TestPoint_HEX_3mmID"
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
 			(at 107.95 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -2389,7 +2389,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LHRS_Special:TestPoint_HEX_3mmID"
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
 			(at 66.04 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -2431,6 +2431,10 @@
 					(reference "TP1")
 					(unit 1)
 				)
+				(path "/1469f349-54e5-4a37-953e-ac48c70e29b2/d41a835d-0002-40e6-b2c5-562251bf7d32/63920d64-0484-425f-8f64-1c9300ee1a5c"
+					(reference "TP1")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -2467,7 +2471,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LHRS_Special:TestPoint_HEX_3mmID"
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
 			(at 190.5 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -2625,7 +2629,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LHRS_Special:TestPoint_HEX_3mmID"
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
 			(at 223.52 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -2795,7 +2799,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LHRS_Special:TestPoint_HEX_3mmID"
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
 			(at 158.75 43.18 0)
 			(hide yes)
 			(show_name no)
