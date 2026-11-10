@@ -821,7 +821,7 @@
         "uuid": "1469f349-54e5-4a37-953e-ac48c70e29b2"
       }
     ],
-    "used_designators": "C1-74,IC1-7,J1-27,D1-57,#PWR1-125,TP_3.3V1,U1-5,Q1-26,#FLG1-5,R1-117,F1-6,L1,TP1-5,FB1-4,Reset1-2,SW1-12,5V_Buck1,Y1-2,5V_USB1,JP1-6,H1-5,5V_Mux1",
+    "used_designators": "IC1-7,J1-27,Y1-2,#PWR1-125,D1-57,Q1-26,C1-74,FB1-4,SW1-12,U1-5,TP_3.3V1,#FLG1-5,R1-117,H1-5,L1,F1-6,TP1-5,Reset1-2,5V_USB1,5V_Mux1,5V_Buck1,JP1-6",
     "variants": []
   },
   "sheets": [
