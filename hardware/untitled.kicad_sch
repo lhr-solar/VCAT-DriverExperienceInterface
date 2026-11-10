@@ -1014,12 +1014,6 @@
 		(uuid "822ab58f-4522-467b-99cc-3764ddfb7ced")
 	)
 	(junction
-		(at 193.04 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8e5eb6de-0acb-4e99-834e-20c860ed0e72")
-	)
-	(junction
 		(at 162.56 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1134,16 +1128,6 @@
 			(type default)
 		)
 		(uuid "27310547-4163-4b1f-a336-10246ded9522")
-	)
-	(wire
-		(pts
-			(xy 193.04 34.29) (xy 193.04 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2881379c-357a-459a-a518-86e102cb7858")
 	)
 	(wire
 		(pts
@@ -1367,7 +1351,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 40.64) (xy 193.04 40.64)
+			(xy 187.96 40.64) (xy 198.12 40.64)
 		)
 		(stroke
 			(width 0)
@@ -1564,16 +1548,6 @@
 			(type default)
 		)
 		(uuid "dccd42fd-b4dd-40b8-9238-9275fc51fdce")
-	)
-	(wire
-		(pts
-			(xy 193.04 40.64) (xy 198.12 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e25adcd6-155d-4078-b747-f3ed35ab4796")
 	)
 	(wire
 		(pts
@@ -2337,7 +2311,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "LHRS_Special:TestPoint_HEX_3mmID"
 			(at 107.95 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -2415,7 +2389,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "LHRS_Special:TestPoint_HEX_3mmID"
 			(at 66.04 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -2493,7 +2467,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "LHRS_Special:TestPoint_HEX_3mmID"
 			(at 190.5 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -2651,7 +2625,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "LHRS_Special:TestPoint_HEX_3mmID"
 			(at 223.52 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -2821,7 +2795,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "LHRS_Special:TestPoint_HEX_3mmID"
 			(at 158.75 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -2861,84 +2835,6 @@
 			(project "DEI"
 				(path "/1469f349-54e5-4a37-953e-ac48c70e29b2/d41a835d-0002-40e6-b2c5-562251bf7d32"
 					(reference "TP3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 193.04 34.29 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c1553fa1-00db-4bb8-a837-87e2cafe3e06")
-		(property "Reference" "5V_Mux1"
-			(at 182.88 30.734 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 187.452 28.448 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 198.12 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 198.12 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 193.04 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "659e7426-8d23-49ea-b879-e2ba17c4e07b")
-		)
-		(instances
-			(project "DEI"
-				(path "/1469f349-54e5-4a37-953e-ac48c70e29b2/d41a835d-0002-40e6-b2c5-562251bf7d32"
-					(reference "5V_Mux1")
 					(unit 1)
 				)
 			)
