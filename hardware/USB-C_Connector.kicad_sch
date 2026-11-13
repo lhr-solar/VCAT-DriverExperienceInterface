@@ -2325,6 +2325,17 @@
 				)
 			)
 		)
+		(property "Mouser P/N" "603-RC0603FR-075K1L "
+			(at 90.17 48.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "609eac0e-d8ba-4a59-8a3d-d41c30eaf871")
 		)
@@ -2416,6 +2427,17 @@
 			)
 		)
 		(property "P/N" "0603WAF5101T5E"
+			(at 97.79 48.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" "603-RC0603FR-075K1L "
 			(at 97.79 48.26 90)
 			(hide yes)
 			(show_name no)
@@ -2540,6 +2562,17 @@
 				)
 			)
 		)
+		(property "Mouser P/N" "576-SP0503BAHTG"
+			(at 82.55 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "11854a7c-0f17-4aab-9e36-47f1d6819144")
 		)
@@ -2638,6 +2671,17 @@
 			)
 		)
 		(property "LCSC P/N" "C3020560"
+			(at 35.56 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" "640-USB4105-GF-A"
 			(at 35.56 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -2882,6 +2926,17 @@
 				)
 			)
 		)
+		(property "Mouser P/N" "621-1N5819HW-F"
+			(at 62.23 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "58b6da30-9faf-42cb-b5cc-0d681fb8acff")
 		)
@@ -2975,6 +3030,17 @@
 			)
 		)
 		(property "LCSC P/N" "C440198"
+			(at 67.31 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" "GRM21BR61H106KE43L"
 			(at 67.31 36.83 0)
 			(hide yes)
 			(show_name no)

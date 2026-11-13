@@ -33752,6 +33752,17 @@
 				)
 			)
 		)
+		(property "Mouser P/N" "603-CC603KRX7R9BB104"
+			(at 73.66 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "980b6db1-fe5b-47bd-9834-cca8cb765020")
 		)
@@ -33851,6 +33862,17 @@
 			)
 		)
 		(property "P/N" "MLASH168SB7104KTNA01"
+			(at 189.23 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" "603-CC603KRX7R9BB104"
 			(at 189.23 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -34050,6 +34072,17 @@
 			)
 		)
 		(property "P/N" "MLASH168SB7104KTNA01"
+			(at 85.09 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" "603-CC603KRX7R9BB104"
 			(at 85.09 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -34280,6 +34313,17 @@
 				)
 			)
 		)
+		(property "Mouser P/N" "603-RC0603FR-0760R4L "
+			(at 201.93 85.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "da0e8139-7a86-4a35-9684-9cfac6bb385e")
 		)
@@ -34431,6 +34475,17 @@
 			)
 		)
 		(property "LCSC P/N" "C2959841"
+			(at 185.42 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" "652-CDSOT23-T24CAN"
 			(at 185.42 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -34605,6 +34660,17 @@
 				)
 			)
 		)
+		(property "Mouser P/N" "595-TCAN3413DR"
+			(at 111.76 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ce1f89e0-4edd-47f7-a8f8-db32dc8feb39")
 		)
@@ -34722,6 +34788,17 @@
 			)
 		)
 		(property "P/N" "CRCW060360R4FKEA"
+			(at 176.53 85.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" "603-RC0603FR-0760R4L "
 			(at 176.53 85.09 90)
 			(hide yes)
 			(show_name no)

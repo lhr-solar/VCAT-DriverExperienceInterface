@@ -2013,6 +2013,17 @@
 				)
 			)
 		)
+		(property "Mouser P/N" "998-MIC39100-3.3WS "
+			(at 152.4 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "3fcec839-284c-4ea8-a79f-01c06ecb6999")
 		)
@@ -2136,6 +2147,17 @@
 			)
 		)
 		(property "Old LCSC P/N" "C124187"
+			(at 133.35 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" "771-PMEG4010CEJ-T/R"
 			(at 133.35 63.5 0)
 			(hide yes)
 			(show_name no)

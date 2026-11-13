@@ -626,13 +626,13 @@
           "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -644,7 +644,7 @@
           "group_by": false,
           "label": "LCSC P/N",
           "name": "LCSC P/N",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -680,7 +680,7 @@
           "group_by": false,
           "label": "Mouser P/N",
           "name": "Mouser P/N",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -740,7 +740,7 @@
           "group_by": false,
           "label": "p/n",
           "name": "p/n",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -821,7 +821,7 @@
         "uuid": "1469f349-54e5-4a37-953e-ac48c70e29b2"
       }
     ],
-    "used_designators": "IC1-7,J1-27,Y1-2,#PWR1-125,D1-57,Q1-26,C1-74,FB1-4,SW1-12,U1-5,TP_3.3V1,#FLG1-5,R1-117,H1-5,L1,F1-6,TP1-5,Reset1-2,5V_USB1,5V_Mux1,5V_Buck1,JP1-6",
+    "used_designators": "IC1-7,J1-27,5V_Buck1,Y1-2,Q1-26,#PWR1-125,D1-57,C1-74,FB1-4,SW1-12,U1-5,TP_3.3V1,#FLG1-5,R1-117,H1-5,L1,F1-6,TP1-5,Reset1-2,5V_USB1,JP1-6,5V_Mux1",
     "variants": []
   },
   "sheets": [

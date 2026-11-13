@@ -6185,6 +6185,28 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C21189"
+			(at 22.86 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" "603-RC0603JR-070RL"
+			(at 22.86 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7672fecb-9e8d-4c66-b6f3-79ba280ed535")
 		)
@@ -7108,6 +7130,28 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C21189"
+			(at 54.61 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" "603-RC0603JR-070RL"
+			(at 54.61 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "86741fd1-e5d4-4056-9268-216a2dec2a1f")
 		)
@@ -7429,6 +7473,28 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C25804"
+			(at 165.1 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" "603-RC0603FR-0710KL "
+			(at 165.1 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "a6cda943-ba66-4a73-b45b-f1658c1c13d0")
 		)
@@ -7611,6 +7677,17 @@
 			)
 		)
 		(property "p/n" "VSSAF510HM3/H"
+			(at 154.94 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" "78-VSSAF510HM3/H"
 			(at 154.94 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -8045,6 +8122,17 @@
 		)
 		(property "LCSC P/N" "C20443035"
 			(at 180.34 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" "771-PSMN012-100YSFX"
+			(at 180.34 86.36 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8966,7 +9054,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "aeb99730-0597-4f3c-9766-cf214af9c31a")
 		(property "Reference" "R5"
@@ -9013,6 +9101,28 @@
 		)
 		(property "Description" "Resistor"
 			(at 125.73 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C4190"
+			(at 125.73 129.54 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" "603-RC0603FR-072K2L"
+			(at 125.73 129.54 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9170,6 +9280,28 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 99.06 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C21189"
+			(at 99.06 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" "603-RC0603JR-070RL"
 			(at 99.06 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -9775,6 +9907,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 133.35 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" "859-LTSTC193KRKT5A"
 			(at 133.35 129.54 0)
 			(hide yes)
 			(show_name no)
